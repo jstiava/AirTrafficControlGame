@@ -14,6 +14,8 @@ public class GraphReader
 {
     public List<Junction> _nodes;
     public List<AirfieldRoadSegment> _roads;
+    public List<Gate> _gates;
+    public List<Obstruction> _obstructions;
 
     public List<Junction> GetNodes()
     {
@@ -23,6 +25,16 @@ public class GraphReader
     public List<AirfieldRoadSegment> GetEdges()
     {
         return _roads;
+    }
+
+    public List<Gate> GetGates()
+    {
+        return _gates;
+    }
+
+    public List<Obstruction> GetObstructions()
+    {
+        return _obstructions;
     }
 
     public GraphReader()
@@ -41,6 +53,7 @@ public class GraphReader
         var graph = JsonSerializer.Deserialize<GraphData>(jsonContent, options);
 
         this._nodes = graph.Nodes.Select(raw => new Junction(raw)).ToList();
+        this._gates = graph.Gates.Select(raw => new Gate(raw)).ToList();
         List<AirfieldRoadSegment> roads = graph.Edges.Select<EdgeRaw, AirfieldRoadSegment>(raw =>
         {
             if (raw.Is_Runway)
@@ -51,6 +64,9 @@ public class GraphReader
         }).ToList();
 
         this._roads = roads;
+
+        this._obstructions = graph.Obstructions.Select(raw => new Obstruction(raw)).ToList();
+
     }
 }
 
@@ -62,6 +78,12 @@ public class GraphData
 
     [JsonPropertyName("edges")]
     public List<EdgeRaw> Edges { get; set; } = new List<EdgeRaw>();
+
+    [JsonPropertyName("gates")]
+    public List<GateRaw> Gates { get; set; } = new List<GateRaw>();
+
+    [JsonPropertyName("obstructions")]
+    public List<ObstructionRaw> Obstructions { get; set; } = new List<ObstructionRaw>();
 }
 
 public class NodeRaw
@@ -98,4 +120,28 @@ public class EdgeRaw
     public List<List<float>>? Points { get; set; }
 
     public EdgeRaw() { }
+}
+
+
+public class GateRaw
+{
+    public string Id { get; set; }
+    public float X { get; set; }
+    public float Y { get; set; }
+    public string Type { get; set; }
+    public float At_Gate_Heading { get; set; }
+
+    public GateRaw() { }
+
+}
+
+
+public class ObstructionRaw
+{
+    public string Id { get; set; }
+    public List<List<float>> Points { get; set; }
+    public string Type { get; set; }
+
+    public ObstructionRaw() { }
+
 }

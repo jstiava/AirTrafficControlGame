@@ -30,12 +30,6 @@ public class Airport : ATCUnit
 }
 
 
-public class Gate
-{
-    public string name;
-}
-
-
 public enum RunwayMode
 {
     ARRIVALS_ONLY,

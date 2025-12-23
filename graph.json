@@ -2,6 +2,25 @@
   "nodes": [
     {
       "id": 0,
+      "x": 16.0,
+      "y": 446.5,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 0,
+          "path": "4L/22R",
+          "is_runway": true,
+          "heading": 43.5,
+          "from": 0,
+          "to": 1
+        }
+      ],
+      "crossing_runway": true,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 1,
       "x": 17.895,
       "y": 444.5,
       "valence": 3,
@@ -11,15 +30,7 @@
           "path": "4L/22R",
           "is_runway": true,
           "heading": 223.5,
-          "from": 0,
-          "to": 0
-        },
-        {
-          "id": 0,
-          "path": "4L/22R",
-          "is_runway": true,
-          "heading": 223.5,
-          "from": 0,
+          "from": 1,
           "to": 0
         },
         {
@@ -27,23 +38,43 @@
           "path": "Z",
           "is_runway": false,
           "heading": 135.8,
-          "from": 0,
-          "to": 10
+          "from": 1,
+          "to": 12
         },
         {
           "id": 2,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 43.5,
-          "from": 0,
-          "to": 5
+          "from": 1,
+          "to": 7
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 1,
+      "id": 2,
+      "x": 19.5,
+      "y": 38.5,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 3,
+          "path": "13L/31R",
+          "is_runway": true,
+          "heading": 133.6,
+          "from": 2,
+          "to": 3
+        }
+      ],
+      "crossing_runway": false,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 3,
       "x": 22.6544,
       "y": 41.5,
       "valence": 4,
@@ -53,47 +84,40 @@
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 1,
-          "to": 1
-        },
-        {
-          "id": 3,
-          "path": "13L/31R",
-          "is_runway": true,
-          "heading": 313.6,
-          "from": 1,
-          "to": 1
+          "from": 3,
+          "to": 2
         },
         {
           "id": 4,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 1,
-          "to": 3
+          "from": 3,
+          "to": 5
         },
         {
           "id": 5,
           "path": "W",
           "is_runway": false,
           "heading": 224.5,
-          "from": 1,
-          "to": 4
+          "from": 3,
+          "to": 6
         },
         {
           "id": 6,
           "path": "H1",
           "is_runway": false,
           "heading": 44.8,
-          "from": 1,
-          "to": 8
+          "from": 3,
+          "to": 10
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 2,
+      "id": 4,
       "x": 32.129,
       "y": 227.0,
       "valence": 3,
@@ -103,31 +127,32 @@
           "path": "WestRamp",
           "is_runway": false,
           "heading": 179.3,
-          "from": 2,
-          "to": 7
+          "from": 4,
+          "to": 9
         },
         {
           "id": 8,
           "path": "F",
           "is_runway": false,
           "heading": 359.4,
-          "from": 2,
-          "to": 4
+          "from": 4,
+          "to": 6
         },
         {
           "id": 9,
           "path": "A",
           "is_runway": false,
           "heading": 84.6,
-          "from": 2,
-          "to": 6
+          "from": 4,
+          "to": 8
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 3,
+      "id": 5,
       "x": 39.0,
       "y": 57.0456,
       "valence": 5,
@@ -137,31 +162,32 @@
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 3,
-          "to": 1
+          "from": 5,
+          "to": 3
         },
         {
           "id": 12,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 3,
-          "to": 18
+          "from": 5,
+          "to": 22
         },
         {
           "id": 13,
           "path": "H2",
           "is_runway": false,
           "heading": 52.1,
-          "from": 3,
-          "to": 9
+          "from": 5,
+          "to": 11
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 4,
+      "id": 6,
       "x": 46.5,
       "y": 170.5,
       "valence": 4,
@@ -171,39 +197,40 @@
           "path": "W",
           "is_runway": false,
           "heading": 348.7,
-          "from": 4,
-          "to": 1
+          "from": 6,
+          "to": 3
         },
         {
           "id": 8,
           "path": "F",
           "is_runway": false,
           "heading": 270.0,
-          "from": 4,
-          "to": 2
+          "from": 6,
+          "to": 4
         },
         {
           "id": 14,
           "path": "F",
           "is_runway": false,
           "heading": 134.0,
-          "from": 4,
-          "to": 12
+          "from": 6,
+          "to": 16
         },
         {
           "id": 15,
           "path": "W",
           "is_runway": false,
           "heading": 178.4,
-          "from": 4,
-          "to": 6
+          "from": 6,
+          "to": 8
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 5,
+      "id": 7,
       "x": 47.7409,
       "y": 413.0,
       "valence": 6,
@@ -213,39 +240,40 @@
           "path": "4L/22R",
           "is_runway": true,
           "heading": 223.5,
-          "from": 5,
-          "to": 0
+          "from": 7,
+          "to": 1
         },
         {
           "id": 16,
           "path": "V",
           "is_runway": false,
           "heading": 133.0,
-          "from": 5,
-          "to": 17
+          "from": 7,
+          "to": 21
         },
         {
           "id": 17,
           "path": "W",
           "is_runway": false,
           "heading": 270.0,
-          "from": 5,
-          "to": 7
+          "from": 7,
+          "to": 9
         },
         {
           "id": 18,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 43.5,
-          "from": 5,
-          "to": 26
+          "from": 7,
+          "to": 30
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 6,
+      "id": 8,
       "x": 47.9973,
       "y": 225.5,
       "valence": 4,
@@ -255,39 +283,40 @@
           "path": "A",
           "is_runway": false,
           "heading": 264.6,
-          "from": 6,
-          "to": 2
+          "from": 8,
+          "to": 4
         },
         {
           "id": 15,
           "path": "W",
           "is_runway": false,
           "heading": 358.4,
-          "from": 6,
-          "to": 4
+          "from": 8,
+          "to": 6
         },
         {
           "id": 20,
           "path": "A",
           "is_runway": false,
           "heading": 90.0,
-          "from": 6,
-          "to": 12
+          "from": 8,
+          "to": 16
         },
         {
           "id": 21,
           "path": "W",
           "is_runway": false,
           "heading": 178.4,
-          "from": 6,
-          "to": 7
+          "from": 8,
+          "to": 9
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 7,
+      "id": 9,
       "x": 49.9983,
       "y": 299.0,
       "valence": 4,
@@ -297,39 +326,40 @@
           "path": "WestRamp",
           "is_runway": false,
           "heading": 270.0,
-          "from": 7,
-          "to": 2
+          "from": 9,
+          "to": 4
         },
         {
           "id": 17,
           "path": "W",
           "is_runway": false,
           "heading": 178.5,
-          "from": 7,
-          "to": 5
+          "from": 9,
+          "to": 7
         },
         {
           "id": 21,
           "path": "W",
           "is_runway": false,
           "heading": 358.4,
-          "from": 7,
-          "to": 6
+          "from": 9,
+          "to": 8
         },
         {
           "id": 22,
           "path": "J",
           "is_runway": false,
           "heading": 89.3,
-          "from": 7,
-          "to": 26
+          "from": 9,
+          "to": 30
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 8,
+      "id": 10,
       "x": 70.5,
       "y": 16.9706,
       "valence": 3,
@@ -339,31 +369,32 @@
           "path": "H1",
           "is_runway": false,
           "heading": 268.7,
-          "from": 8,
-          "to": 1
+          "from": 10,
+          "to": 3
         },
         {
           "id": 23,
           "path": "H2",
           "is_runway": false,
           "heading": 180.0,
-          "from": 8,
-          "to": 9
+          "from": 10,
+          "to": 11
         },
         {
           "id": 24,
           "path": "H1",
           "is_runway": false,
           "heading": 88.7,
-          "from": 8,
-          "to": 23
+          "from": 10,
+          "to": 27
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 9,
+      "id": 11,
       "x": 70.5,
       "y": 32.5,
       "valence": 3,
@@ -373,31 +404,32 @@
           "path": "H2",
           "is_runway": false,
           "heading": 232.1,
-          "from": 9,
-          "to": 3
+          "from": 11,
+          "to": 5
         },
         {
           "id": 23,
           "path": "H2",
           "is_runway": false,
           "heading": 0.0,
-          "from": 9,
-          "to": 8
+          "from": 11,
+          "to": 10
         },
         {
           "id": 25,
           "path": "N",
           "is_runway": false,
           "heading": 122.6,
-          "from": 9,
-          "to": 13
+          "from": 11,
+          "to": 17
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 10,
+      "id": 12,
       "x": 71.0,
       "y": 537.0,
       "valence": 3,
@@ -407,73 +439,104 @@
           "path": "Z",
           "is_runway": false,
           "heading": 311.6,
-          "from": 10,
-          "to": 0
+          "from": 12,
+          "to": 1
         },
         {
           "id": 26,
           "path": "Y1",
           "is_runway": false,
           "heading": 90.0,
-          "from": 10,
-          "to": 20
+          "from": 12,
+          "to": 24
         },
         {
           "id": 27,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 10,
-          "to": 17
+          "from": 12,
+          "to": 21
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 11,
-      "x": 89.0822,
-      "y": 181.5,
-      "valence": 5,
+      "id": 13,
+      "x": 73.3864,
+      "y": 196.5,
+      "valence": 1,
       "edges": [
         {
           "id": 28,
           "path": "F1",
           "is_runway": false,
-          "heading": 226.3,
-          "from": 11,
-          "to": null
+          "heading": 46.3,
+          "from": 13,
+          "to": 14
+        }
+      ],
+      "crossing_runway": false,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 14,
+      "x": 87.5,
+      "y": 180.0,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 28,
+          "path": "F1",
+          "is_runway": false,
+          "heading": 159.3,
+          "from": 14,
+          "to": 13
         },
         {
           "id": 29,
           "path": "13R/31L",
           "is_runway": true,
-          "heading": 313.5,
-          "from": 11,
-          "to": 11
+          "heading": 133.5,
+          "from": 14,
+          "to": 14
         },
         {
           "id": 29,
           "path": "13R/31L",
           "is_runway": true,
-          "heading": 313.5,
-          "from": 11,
-          "to": 11
+          "heading": 133.5,
+          "from": 14,
+          "to": 14
         },
         {
           "id": 30,
           "path": "13R/31L",
           "is_runway": true,
           "heading": 133.5,
-          "from": 11,
-          "to": 15
+          "from": 14,
+          "to": 19
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": true
     },
     {
-      "id": 12,
+      "id": 15,
+      "x": 89.0822,
+      "y": 181.5,
+      "valence": 5,
+      "edges": [],
+      "crossing_runway": false,
+      "is_gate": false,
+      "is_end": false
+    },
+    {
+      "id": 16,
       "x": 92.0,
       "y": 214.5,
       "valence": 4,
@@ -483,39 +546,40 @@
           "path": "F",
           "is_runway": false,
           "heading": 314.0,
-          "from": 12,
-          "to": 4
+          "from": 16,
+          "to": 6
         },
         {
           "id": 20,
           "path": "A",
           "is_runway": false,
           "heading": 228.7,
-          "from": 12,
-          "to": 6
+          "from": 16,
+          "to": 8
         },
         {
           "id": 32,
           "path": "F",
           "is_runway": false,
           "heading": 133.3,
-          "from": 12,
-          "to": 29
+          "from": 16,
+          "to": 33
         },
         {
           "id": 33,
           "path": "A",
           "is_runway": false,
           "heading": 45.1,
-          "from": 12,
-          "to": 15
+          "from": 16,
+          "to": 19
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 13,
+      "id": 17,
       "x": 95.5,
       "y": 48.5,
       "valence": 3,
@@ -525,31 +589,32 @@
           "path": "N",
           "is_runway": false,
           "heading": 302.6,
-          "from": 13,
-          "to": 9
+          "from": 17,
+          "to": 11
         },
         {
           "id": 34,
           "path": "N",
           "is_runway": false,
           "heading": 94.7,
-          "from": 13,
-          "to": 16
+          "from": 17,
+          "to": 20
         },
         {
           "id": 35,
           "path": "H3",
           "is_runway": false,
           "heading": 154.7,
-          "from": 13,
-          "to": 14
+          "from": 17,
+          "to": 18
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 14,
+      "id": 18,
       "x": 107.541,
       "y": 74.0,
       "valence": 3,
@@ -559,31 +624,32 @@
           "path": "H3",
           "is_runway": false,
           "heading": 334.7,
-          "from": 14,
-          "to": 13
+          "from": 18,
+          "to": 17
         },
         {
           "id": 36,
           "path": "H3",
           "is_runway": false,
           "heading": 167.7,
-          "from": 14,
-          "to": 18
+          "from": 18,
+          "to": 22
         },
         {
           "id": 37,
           "path": "H3",
           "is_runway": false,
           "heading": 13.3,
-          "from": 14,
-          "to": 16
+          "from": 18,
+          "to": 20
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 15,
+      "id": 19,
       "x": 107.541,
       "y": 199.0,
       "valence": 4,
@@ -593,39 +659,40 @@
           "path": "13R/31L",
           "is_runway": true,
           "heading": 313.5,
-          "from": 15,
-          "to": 11
+          "from": 19,
+          "to": 14
         },
         {
           "id": 33,
           "path": "A",
           "is_runway": false,
           "heading": 225.1,
-          "from": 15,
-          "to": 12
+          "from": 19,
+          "to": 16
         },
         {
           "id": 38,
           "path": "13R/31L",
           "is_runway": true,
           "heading": 133.5,
-          "from": 15,
-          "to": 32
+          "from": 19,
+          "to": 36
         },
         {
           "id": 39,
           "path": "A",
           "is_runway": false,
           "heading": 44.3,
-          "from": 15,
-          "to": 19
+          "from": 19,
+          "to": 23
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 16,
+      "id": 20,
       "x": 120.0,
       "y": 50.5,
       "valence": 3,
@@ -635,31 +702,32 @@
           "path": "N",
           "is_runway": false,
           "heading": 274.7,
-          "from": 16,
-          "to": 13
+          "from": 20,
+          "to": 17
         },
         {
           "id": 37,
           "path": "H3",
           "is_runway": false,
           "heading": 220.8,
-          "from": 16,
-          "to": 14
+          "from": 20,
+          "to": 18
         },
         {
           "id": 40,
           "path": "N",
           "is_runway": false,
           "heading": 90.0,
-          "from": 16,
-          "to": 23
+          "from": 20,
+          "to": 27
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 17,
+      "id": 21,
       "x": 122.701,
       "y": 482.5,
       "valence": 4,
@@ -669,39 +737,40 @@
           "path": "V",
           "is_runway": false,
           "heading": 314.8,
-          "from": 17,
-          "to": 5
+          "from": 21,
+          "to": 7
         },
         {
           "id": 27,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 17,
-          "to": 10
+          "from": 21,
+          "to": 12
         },
         {
           "id": 41,
           "path": "V",
           "is_runway": false,
           "heading": 133.6,
-          "from": 17,
-          "to": 24
+          "from": 21,
+          "to": 28
         },
         {
           "id": 42,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 17,
-          "to": 35
+          "from": 21,
+          "to": 39
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 18,
+      "id": 22,
       "x": 125.698,
       "y": 139.5,
       "valence": 3,
@@ -711,31 +780,32 @@
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 18,
-          "to": 3
+          "from": 22,
+          "to": 5
         },
         {
           "id": 36,
           "path": "H3",
           "is_runway": false,
           "heading": 341.5,
-          "from": 18,
-          "to": 14
+          "from": 22,
+          "to": 18
         },
         {
           "id": 43,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 18,
-          "to": 21
+          "from": 22,
+          "to": 25
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 19,
+      "id": 23,
       "x": 128.5,
       "y": 177.5,
       "valence": 3,
@@ -745,31 +815,32 @@
           "path": "A",
           "is_runway": false,
           "heading": 224.3,
-          "from": 19,
-          "to": 15
+          "from": 23,
+          "to": 19
         },
         {
           "id": 44,
           "path": "A",
           "is_runway": false,
           "heading": 92.2,
-          "from": 19,
-          "to": 28
+          "from": 23,
+          "to": 32
         },
         {
           "id": 45,
           "path": "A",
           "is_runway": false,
           "heading": 44.7,
-          "from": 19,
-          "to": 21
+          "from": 23,
+          "to": 25
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 20,
+      "id": 24,
       "x": 132.0,
       "y": 537.0,
       "valence": 3,
@@ -779,31 +850,32 @@
           "path": "Y1",
           "is_runway": false,
           "heading": 270.0,
-          "from": 20,
-          "to": 10
+          "from": 24,
+          "to": 12
         },
         {
           "id": 46,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 20,
-          "to": 22
+          "from": 24,
+          "to": 26
         },
         {
           "id": 47,
           "path": "Y1",
           "is_runway": false,
           "heading": 74.2,
-          "from": 20,
-          "to": 25
+          "from": 24,
+          "to": 29
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 21,
+      "id": 25,
       "x": 146.5,
       "y": 159.284,
       "valence": 3,
@@ -813,31 +885,32 @@
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 21,
-          "to": 18
+          "from": 25,
+          "to": 22
         },
         {
           "id": 45,
           "path": "A",
           "is_runway": false,
           "heading": 224.7,
-          "from": 21,
-          "to": 19
+          "from": 25,
+          "to": 23
         },
         {
           "id": 48,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 21,
-          "to": 28
+          "from": 25,
+          "to": 32
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 22,
+      "id": 26,
       "x": 149.962,
       "y": 518.0,
       "valence": 3,
@@ -847,39 +920,40 @@
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 22,
-          "to": 20
+          "from": 26,
+          "to": 24
         },
         {
           "id": 49,
           "path": "Y",
           "is_runway": false,
           "heading": 160.7,
-          "from": 22,
-          "to": 25
+          "from": 26,
+          "to": 29
         },
         {
           "id": 50,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 22,
-          "to": 24
+          "from": 26,
+          "to": 28
         },
         {
           "id": 58,
           "path": "Y1",
           "is_runway": false,
           "heading": 138.9,
-          "from": 22,
-          "to": null
+          "from": 26,
+          "to": 43
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 23,
+      "id": 27,
       "x": 150.677,
       "y": 50.5,
       "valence": 4,
@@ -889,39 +963,40 @@
           "path": "H1",
           "is_runway": false,
           "heading": 313.6,
-          "from": 23,
-          "to": 8
+          "from": 27,
+          "to": 10
         },
         {
           "id": 40,
           "path": "N",
           "is_runway": false,
           "heading": 270.0,
-          "from": 23,
-          "to": 16
+          "from": 27,
+          "to": 20
         },
         {
           "id": 51,
           "path": "N",
           "is_runway": false,
           "heading": 90.0,
-          "from": 23,
-          "to": 40
+          "from": 27,
+          "to": 45
         },
         {
           "id": 52,
           "path": "H",
           "is_runway": false,
           "heading": 133.6,
-          "from": 23,
-          "to": 47
+          "from": 27,
+          "to": 52
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 24,
+      "id": 28,
       "x": 154.689,
       "y": 513.0,
       "valence": 3,
@@ -931,31 +1006,32 @@
           "path": "V",
           "is_runway": false,
           "heading": 313.6,
-          "from": 24,
-          "to": 17
+          "from": 28,
+          "to": 21
         },
         {
           "id": 50,
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 24,
-          "to": 22
+          "from": 28,
+          "to": 26
         },
         {
           "id": 53,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 24,
-          "to": 30
+          "from": 28,
+          "to": 34
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 25,
+      "id": 29,
       "x": 154.689,
       "y": 531.5,
       "valence": 3,
@@ -965,31 +1041,32 @@
           "path": "Y1",
           "is_runway": false,
           "heading": 270.0,
-          "from": 25,
-          "to": 20
+          "from": 29,
+          "to": 24
         },
         {
           "id": 49,
           "path": "Y",
           "is_runway": false,
           "heading": 340.7,
-          "from": 25,
-          "to": 22
+          "from": 29,
+          "to": 26
         },
         {
           "id": 54,
           "path": "Y1",
           "is_runway": false,
           "heading": 90.0,
-          "from": 25,
-          "to": 27
+          "from": 29,
+          "to": 31
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 26,
+      "id": 30,
       "x": 156.702,
       "y": 298.0,
       "valence": 4,
@@ -999,39 +1076,40 @@
           "path": "4L/22R",
           "is_runway": true,
           "heading": 223.5,
-          "from": 26,
-          "to": 5
+          "from": 30,
+          "to": 7
         },
         {
           "id": 22,
           "path": "J",
           "is_runway": false,
           "heading": 270.0,
-          "from": 26,
-          "to": 7
+          "from": 30,
+          "to": 9
         },
         {
           "id": 55,
           "path": "J",
           "is_runway": false,
           "heading": 90.0,
-          "from": 26,
-          "to": 31
+          "from": 30,
+          "to": 35
         },
         {
           "id": 56,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 43.5,
-          "from": 26,
-          "to": 29
+          "from": 30,
+          "to": 33
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 27,
+      "id": 31,
       "x": 160.5,
       "y": 531.5,
       "valence": 3,
@@ -1041,23 +1119,24 @@
           "path": "Y1",
           "is_runway": false,
           "heading": 270.0,
-          "from": 27,
-          "to": 25
+          "from": 31,
+          "to": 29
         },
         {
           "id": 59,
           "path": "SouthRamp",
           "is_runway": false,
           "heading": 49.0,
-          "from": 27,
-          "to": 37
+          "from": 31,
+          "to": 41
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 28,
+      "id": 32,
       "x": 167.231,
       "y": 179.0,
       "valence": 3,
@@ -1067,31 +1146,32 @@
           "path": "A",
           "is_runway": false,
           "heading": 272.2,
-          "from": 28,
-          "to": 19
+          "from": 32,
+          "to": 23
         },
         {
           "id": 48,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 28,
-          "to": 21
+          "from": 32,
+          "to": 25
         },
         {
           "id": 60,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 28,
-          "to": 39
+          "from": 32,
+          "to": 44
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 29,
+      "id": 33,
       "x": 168.0,
       "y": 286.076,
       "valence": 4,
@@ -1101,39 +1181,40 @@
           "path": "F",
           "is_runway": false,
           "heading": 313.3,
-          "from": 29,
-          "to": 12
+          "from": 33,
+          "to": 16
         },
         {
           "id": 56,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 223.5,
-          "from": 29,
-          "to": 26
+          "from": 33,
+          "to": 30
         },
         {
           "id": 61,
           "path": "F",
           "is_runway": false,
           "heading": 134.1,
-          "from": 29,
-          "to": 31
+          "from": 33,
+          "to": 35
         },
         {
           "id": 62,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 43.5,
-          "from": 29,
-          "to": 32
+          "from": 33,
+          "to": 36
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 30,
+      "id": 34,
       "x": 179.742,
       "y": 486.5,
       "valence": 3,
@@ -1143,31 +1224,32 @@
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 30,
-          "to": 24
+          "from": 34,
+          "to": 28
         },
         {
           "id": 63,
           "path": "Y2",
           "is_runway": false,
           "heading": 15.3,
-          "from": 30,
-          "to": 34
+          "from": 34,
+          "to": 38
         },
         {
           "id": 64,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 30,
-          "to": 33
+          "from": 34,
+          "to": 37
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 31,
+      "id": 35,
       "x": 180.31,
       "y": 298.0,
       "valence": 3,
@@ -1177,31 +1259,32 @@
           "path": "J",
           "is_runway": false,
           "heading": 270.0,
-          "from": 31,
-          "to": 26
+          "from": 35,
+          "to": 30
         },
         {
           "id": 61,
           "path": "F",
           "is_runway": false,
           "heading": 314.1,
-          "from": 31,
-          "to": 29
+          "from": 35,
+          "to": 33
         },
         {
           "id": 65,
           "path": "F",
           "is_runway": false,
           "heading": 134.1,
-          "from": 31,
-          "to": 43
+          "from": 35,
+          "to": 48
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 32,
+      "id": 36,
       "x": 182.8531,
       "y": 270.3997,
       "valence": 4,
@@ -1211,39 +1294,40 @@
           "path": "13R/31L",
           "is_runway": true,
           "heading": 313.5,
-          "from": 32,
-          "to": 15
+          "from": 36,
+          "to": 19
         },
         {
           "id": 62,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 223.5,
-          "from": 32,
-          "to": 29
+          "from": 36,
+          "to": 33
         },
         {
           "id": 67,
           "path": "13R/31L",
           "is_runway": true,
           "heading": 133.5,
-          "from": 32,
-          "to": 45
+          "from": 36,
+          "to": 50
         },
         {
           "id": 68,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 43.5,
-          "from": 32,
-          "to": 39
+          "from": 36,
+          "to": 44
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 33,
+      "id": 37,
       "x": 183.524,
       "y": 482.5,
       "valence": 3,
@@ -1253,31 +1337,32 @@
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 33,
-          "to": 30
+          "from": 37,
+          "to": 34
         },
         {
           "id": 69,
           "path": "Y3",
           "is_runway": false,
           "heading": 135.0,
-          "from": 33,
-          "to": 37
+          "from": 37,
+          "to": 41
         },
         {
           "id": 70,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 33,
-          "to": 38
+          "from": 37,
+          "to": 42
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 34,
+      "id": 38,
       "x": 187.024,
       "y": 455.0,
       "valence": 3,
@@ -1287,31 +1372,32 @@
           "path": "Y2",
           "is_runway": false,
           "heading": 188.3,
-          "from": 34,
-          "to": 30
+          "from": 38,
+          "to": 34
         },
         {
           "id": 71,
           "path": "Y2",
           "is_runway": false,
           "heading": 127.0,
-          "from": 34,
-          "to": 38
+          "from": 38,
+          "to": 42
         },
         {
           "id": 72,
           "path": "Y2",
           "is_runway": false,
           "heading": 8.3,
-          "from": 34,
-          "to": 36
+          "from": 38,
+          "to": 40
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 35,
+      "id": 39,
       "x": 188.632,
       "y": 413.0,
       "valence": 3,
@@ -1321,31 +1407,32 @@
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 35,
-          "to": 17
+          "from": 39,
+          "to": 21
         },
         {
           "id": 73,
           "path": "Y2",
           "is_runway": false,
           "heading": 141.4,
-          "from": 35,
-          "to": 36
+          "from": 39,
+          "to": 40
         },
         {
           "id": 74,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 35,
-          "to": 43
+          "from": 39,
+          "to": 48
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 36,
+      "id": 40,
       "x": 199.0,
       "y": 426.0,
       "valence": 3,
@@ -1355,31 +1442,32 @@
           "path": "Y2",
           "is_runway": false,
           "heading": 226.6,
-          "from": 36,
-          "to": 34
+          "from": 40,
+          "to": 38
         },
         {
           "id": 73,
           "path": "Y2",
           "is_runway": false,
           "heading": 321.4,
-          "from": 36,
-          "to": 35
+          "from": 40,
+          "to": 39
         },
         {
           "id": 75,
           "path": "K",
           "is_runway": false,
           "heading": 90.0,
-          "from": 36,
-          "to": 42
+          "from": 40,
+          "to": 47
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 37,
+      "id": 41,
       "x": 199.0,
       "y": 498.0,
       "valence": 3,
@@ -1389,31 +1477,32 @@
           "path": "SouthRamp",
           "is_runway": false,
           "heading": 229.0,
-          "from": 37,
-          "to": 27
+          "from": 41,
+          "to": 31
         },
         {
           "id": 69,
           "path": "Y3",
           "is_runway": false,
           "heading": 315.0,
-          "from": 37,
-          "to": 33
+          "from": 41,
+          "to": 37
         },
         {
           "id": 76,
           "path": "SouthRamp",
           "is_runway": false,
           "heading": 44.7,
-          "from": 37,
-          "to": 44
+          "from": 41,
+          "to": 49
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 38,
+      "id": 42,
       "x": 203.849,
       "y": 461.0,
       "valence": 3,
@@ -1423,31 +1512,51 @@
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 38,
-          "to": 33
+          "from": 42,
+          "to": 37
         },
         {
           "id": 71,
           "path": "Y2",
           "is_runway": false,
           "heading": 270.0,
-          "from": 38,
-          "to": 34
+          "from": 42,
+          "to": 38
         },
         {
           "id": 77,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 38,
-          "to": 41
+          "from": 42,
+          "to": 46
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 39,
+      "id": 43,
+      "x": 212.0,
+      "y": 531.5,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 58,
+          "path": "Y1",
+          "is_runway": false,
+          "heading": 270.0,
+          "from": 43,
+          "to": 26
+        }
+      ],
+      "crossing_runway": false,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 44,
       "x": 221.0006,
       "y": 230.1379,
       "valence": 4,
@@ -1457,39 +1566,40 @@
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.5,
-          "from": 39,
-          "to": 28
+          "from": 44,
+          "to": 32
         },
         {
           "id": 68,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 223.5,
-          "from": 39,
-          "to": 32
+          "from": 44,
+          "to": 36
         },
         {
           "id": 78,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 39,
-          "to": 49
+          "from": 44,
+          "to": 54
         },
         {
           "id": 79,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 43.5,
-          "from": 39,
-          "to": 47
+          "from": 44,
+          "to": 52
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 40,
+      "id": 45,
       "x": 229.0,
       "y": 50.5,
       "valence": 4,
@@ -1499,39 +1609,40 @@
           "path": "N",
           "is_runway": false,
           "heading": 270.0,
-          "from": 40,
-          "to": 23
+          "from": 45,
+          "to": 27
         },
         {
           "id": 81,
           "path": "N",
           "is_runway": false,
           "heading": 90.0,
-          "from": 40,
-          "to": 52
+          "from": 45,
+          "to": 57
         },
         {
           "id": 82,
           "path": "N2",
           "is_runway": false,
           "heading": 136.1,
-          "from": 40,
-          "to": 52
+          "from": 45,
+          "to": 57
         },
         {
           "id": 83,
           "path": "NorthRamp",
           "is_runway": false,
           "heading": 318.6,
-          "from": 40,
-          "to": 52
+          "from": 45,
+          "to": 57
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 41,
+      "id": 46,
       "x": 233.156,
       "y": 430.0,
       "valence": 3,
@@ -1541,31 +1652,32 @@
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 41,
-          "to": 38
+          "from": 46,
+          "to": 42
         },
         {
           "id": 84,
           "path": "V4",
           "is_runway": false,
           "heading": 134.4,
-          "from": 41,
-          "to": 44
+          "from": 46,
+          "to": 49
         },
         {
           "id": 85,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 41,
-          "to": 42
+          "from": 46,
+          "to": 47
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 42,
+      "id": 47,
       "x": 236.938,
       "y": 426.0,
       "valence": 4,
@@ -1575,39 +1687,40 @@
           "path": "K",
           "is_runway": false,
           "heading": 270.0,
-          "from": 42,
-          "to": 36
+          "from": 47,
+          "to": 40
         },
         {
           "id": 85,
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 42,
-          "to": 41
+          "from": 47,
+          "to": 46
         },
         {
           "id": 86,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 42,
-          "to": 46
+          "from": 47,
+          "to": 51
         },
         {
           "id": 87,
           "path": "K",
           "is_runway": false,
           "heading": 88.5,
-          "from": 42,
-          "to": 50
+          "from": 47,
+          "to": 55
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 43,
+      "id": 48,
       "x": 241.5,
       "y": 357.27,
       "valence": 4,
@@ -1617,39 +1730,40 @@
           "path": "F",
           "is_runway": false,
           "heading": 314.1,
-          "from": 43,
-          "to": 31
+          "from": 48,
+          "to": 35
         },
         {
           "id": 74,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 43,
-          "to": 35
+          "from": 48,
+          "to": 39
         },
         {
           "id": 88,
           "path": "F",
           "is_runway": false,
           "heading": 133.2,
-          "from": 43,
-          "to": 46
+          "from": 48,
+          "to": 51
         },
         {
           "id": 89,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 43,
-          "to": 45
+          "from": 48,
+          "to": 50
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 44,
+      "id": 49,
       "x": 250.0,
       "y": 446.5,
       "valence": 3,
@@ -1659,31 +1773,32 @@
           "path": "SouthRamp",
           "is_runway": false,
           "heading": 224.7,
-          "from": 44,
-          "to": 37
+          "from": 49,
+          "to": 41
         },
         {
           "id": 84,
           "path": "V4",
           "is_runway": false,
           "heading": 314.4,
-          "from": 44,
-          "to": 41
+          "from": 49,
+          "to": 46
         },
         {
           "id": 90,
           "path": "SouthRamp",
           "is_runway": false,
           "heading": 90.0,
-          "from": 44,
-          "to": 51
+          "from": 49,
+          "to": 56
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 45,
+      "id": 50,
       "x": 257.118,
       "y": 340.8065,
       "valence": 4,
@@ -1693,39 +1808,40 @@
           "path": "13R/31L",
           "is_runway": true,
           "heading": 313.5,
-          "from": 45,
-          "to": 32
+          "from": 50,
+          "to": 36
         },
         {
           "id": 89,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 45,
-          "to": 43
+          "from": 50,
+          "to": 48
         },
         {
           "id": 92,
           "path": "13R/31L",
           "is_runway": true,
           "heading": 133.5,
-          "from": 45,
-          "to": 48
+          "from": 50,
+          "to": 53
         },
         {
           "id": 93,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 45,
-          "to": 49
+          "from": 50,
+          "to": 54
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 46,
+      "id": 51,
       "x": 273.5,
       "y": 387.326,
       "valence": 4,
@@ -1735,39 +1851,40 @@
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 46,
-          "to": 42
+          "from": 51,
+          "to": 47
         },
         {
           "id": 88,
           "path": "F",
           "is_runway": false,
           "heading": 313.2,
-          "from": 46,
-          "to": 43
+          "from": 51,
+          "to": 48
         },
         {
           "id": 95,
           "path": "F",
           "is_runway": false,
           "heading": 133.4,
-          "from": 46,
-          "to": 50
+          "from": 51,
+          "to": 55
         },
         {
           "id": 97,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 46,
-          "to": 48
+          "from": 51,
+          "to": 53
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 47,
+      "id": 52,
       "x": 277.033,
       "y": 171.0,
       "valence": 4,
@@ -1777,39 +1894,40 @@
           "path": "H",
           "is_runway": false,
           "heading": 313.6,
-          "from": 47,
-          "to": 23
+          "from": 52,
+          "to": 27
         },
         {
           "id": 79,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 223.5,
-          "from": 47,
-          "to": 39
+          "from": 52,
+          "to": 44
         },
         {
           "id": 98,
           "path": "H",
           "is_runway": false,
           "heading": 133.5,
-          "from": 47,
-          "to": 58
+          "from": 52,
+          "to": 63
         },
         {
           "id": 99,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 43.5,
-          "from": 47,
-          "to": 62
+          "from": 52,
+          "to": 67
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 48,
+      "id": 53,
       "x": 288.9493,
       "y": 370.9842,
       "valence": 4,
@@ -1819,39 +1937,40 @@
           "path": "13R/31L",
           "is_runway": true,
           "heading": 313.5,
-          "from": 48,
-          "to": 45
+          "from": 53,
+          "to": 50
         },
         {
           "id": 97,
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 48,
-          "to": 46
+          "from": 53,
+          "to": 51
         },
         {
           "id": 100,
           "path": "13R/31L",
           "is_runway": true,
           "heading": 133.5,
-          "from": 48,
-          "to": 57
+          "from": 53,
+          "to": 62
         },
         {
           "id": 101,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 48,
-          "to": 54
+          "from": 53,
+          "to": 59
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 49,
+      "id": 54,
       "x": 295.1784,
       "y": 300.6853,
       "valence": 4,
@@ -1861,39 +1980,40 @@
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 49,
-          "to": 39
+          "from": 54,
+          "to": 44
         },
         {
           "id": 93,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 49,
-          "to": 45
+          "from": 54,
+          "to": 50
         },
         {
           "id": 102,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 49,
-          "to": 54
+          "from": 54,
+          "to": 59
         },
         {
           "id": 103,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 49,
-          "to": 53
+          "from": 54,
+          "to": 58
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 50,
+      "id": 55,
       "x": 312.2717,
       "y": 424.0122,
       "valence": 4,
@@ -1903,39 +2023,40 @@
           "path": "K",
           "is_runway": false,
           "heading": 268.5,
-          "from": 50,
-          "to": 42
+          "from": 55,
+          "to": 47
         },
         {
           "id": 95,
           "path": "F",
           "is_runway": false,
           "heading": 313.4,
-          "from": 50,
-          "to": 46
+          "from": 55,
+          "to": 51
         },
         {
           "id": 104,
           "path": "F",
           "is_runway": false,
           "heading": 133.4,
-          "from": 50,
-          "to": 55
+          "from": 55,
+          "to": 60
         },
         {
           "id": 106,
           "path": "K",
           "is_runway": false,
           "heading": 88.5,
-          "from": 50,
-          "to": 57
+          "from": 55,
+          "to": 62
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 51,
+      "id": 56,
       "x": 314.5,
       "y": 452.0,
       "valence": 3,
@@ -1945,31 +2066,32 @@
           "path": "SouthRamp",
           "is_runway": false,
           "heading": 297.6,
-          "from": 51,
-          "to": 44
+          "from": 56,
+          "to": 49
         },
         {
           "id": 107,
           "path": "SouthRamp",
           "is_runway": false,
           "heading": 133.9,
-          "from": 51,
-          "to": 56
+          "from": 56,
+          "to": 61
         },
         {
           "id": 108,
           "path": "F2",
           "is_runway": false,
           "heading": 48.5,
-          "from": 51,
-          "to": 55
+          "from": 56,
+          "to": 60
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 52,
+      "id": 57,
       "x": 324.5,
       "y": 50.5,
       "valence": 4,
@@ -1979,39 +2101,40 @@
           "path": "N",
           "is_runway": false,
           "heading": 270.0,
-          "from": 52,
-          "to": 40
+          "from": 57,
+          "to": 45
         },
         {
           "id": 82,
           "path": "N2",
           "is_runway": false,
           "heading": 221.7,
-          "from": 52,
-          "to": 40
+          "from": 57,
+          "to": 45
         },
         {
           "id": 83,
           "path": "NorthRamp",
           "is_runway": false,
           "heading": 35.2,
-          "from": 52,
-          "to": 40
+          "from": 57,
+          "to": 45
         },
         {
           "id": 109,
           "path": "N",
           "is_runway": false,
           "heading": 90.0,
-          "from": 52,
-          "to": 65
+          "from": 57,
+          "to": 70
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 53,
+      "id": 58,
       "x": 324.762,
       "y": 269.5,
       "valence": 3,
@@ -2021,31 +2144,32 @@
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 53,
-          "to": 49
+          "from": 58,
+          "to": 54
         },
         {
           "id": 110,
           "path": "G",
           "is_runway": false,
           "heading": 132.5,
-          "from": 53,
-          "to": 60
+          "from": 58,
+          "to": 65
         },
         {
           "id": 111,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 53,
-          "to": 58
+          "from": 58,
+          "to": 63
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 54,
+      "id": 59,
       "x": 326.8934,
       "y": 330.848,
       "valence": 4,
@@ -2055,39 +2179,40 @@
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 54,
-          "to": 48
+          "from": 59,
+          "to": 53
         },
         {
           "id": 102,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 54,
-          "to": 49
+          "from": 59,
+          "to": 54
         },
         {
           "id": 113,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 54,
-          "to": 66
+          "from": 59,
+          "to": 73
         },
         {
           "id": 114,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 54,
-          "to": 60
+          "from": 59,
+          "to": 65
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 55,
+      "id": 60,
       "x": 328.64,
       "y": 439.5,
       "valence": 3,
@@ -2097,31 +2222,32 @@
           "path": "F",
           "is_runway": false,
           "heading": 313.4,
-          "from": 55,
-          "to": 50
+          "from": 60,
+          "to": 55
         },
         {
           "id": 108,
           "path": "F2",
           "is_runway": false,
           "heading": 228.5,
-          "from": 55,
-          "to": 51
+          "from": 60,
+          "to": 56
         },
         {
           "id": 115,
           "path": "F",
           "is_runway": false,
           "heading": 133.4,
-          "from": 55,
-          "to": 59
+          "from": 60,
+          "to": 64
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 56,
+      "id": 61,
       "x": 340.0,
       "y": 476.5,
       "valence": 3,
@@ -2131,31 +2257,32 @@
           "path": "SouthRamp",
           "is_runway": false,
           "heading": 313.9,
-          "from": 56,
-          "to": 51
+          "from": 61,
+          "to": 56
         },
         {
           "id": 116,
           "path": "SouthRamp",
           "is_runway": false,
           "heading": 180.0,
-          "from": 56,
-          "to": 73
+          "from": 61,
+          "to": 80
         },
         {
           "id": 117,
           "path": "F3",
           "is_runway": false,
           "heading": 44.9,
-          "from": 56,
-          "to": 59
+          "from": 61,
+          "to": 64
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 57,
+      "id": 62,
       "x": 344.0,
       "y": 423.175,
       "valence": 4,
@@ -2165,39 +2292,40 @@
           "path": "13R/31L",
           "is_runway": true,
           "heading": 313.5,
-          "from": 57,
-          "to": 48
+          "from": 62,
+          "to": 53
         },
         {
           "id": 106,
           "path": "K",
           "is_runway": false,
           "heading": 268.5,
-          "from": 57,
-          "to": 50
+          "from": 62,
+          "to": 55
         },
         {
           "id": 118,
           "path": "13R/31L",
           "is_runway": true,
           "heading": 133.5,
-          "from": 57,
-          "to": null
+          "from": 62,
+          "to": 72
         },
         {
           "id": 119,
           "path": "K",
           "is_runway": false,
           "heading": 87.4,
-          "from": 57,
-          "to": 64
+          "from": 62,
+          "to": 69
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 58,
+      "id": 63,
       "x": 351.324,
       "y": 241.5,
       "valence": 4,
@@ -2207,39 +2335,40 @@
           "path": "H",
           "is_runway": false,
           "heading": 313.5,
-          "from": 58,
-          "to": 47
+          "from": 63,
+          "to": 52
         },
         {
           "id": 111,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 58,
-          "to": 53
+          "from": 63,
+          "to": 58
         },
         {
           "id": 120,
           "path": "H",
           "is_runway": false,
           "heading": 133.4,
-          "from": 58,
-          "to": 63
+          "from": 63,
+          "to": 68
         },
         {
           "id": 121,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 58,
-          "to": 67
+          "from": 63,
+          "to": 74
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 59,
+      "id": 64,
       "x": 353.476,
       "y": 463.0,
       "valence": 3,
@@ -2249,31 +2378,32 @@
           "path": "F",
           "is_runway": false,
           "heading": 313.4,
-          "from": 59,
-          "to": 55
+          "from": 64,
+          "to": 60
         },
         {
           "id": 117,
           "path": "F3",
           "is_runway": false,
           "heading": 224.9,
-          "from": 59,
-          "to": 56
+          "from": 64,
+          "to": 61
         },
         {
           "id": 122,
           "path": "F",
           "is_runway": false,
           "heading": 133.4,
-          "from": 59,
-          "to": 61
+          "from": 64,
+          "to": 66
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 60,
+      "id": 65,
       "x": 357.002,
       "y": 299.0,
       "valence": 4,
@@ -2283,39 +2413,40 @@
           "path": "G",
           "is_runway": false,
           "heading": 312.5,
-          "from": 60,
-          "to": 53
+          "from": 65,
+          "to": 58
         },
         {
           "id": 114,
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 60,
-          "to": 54
+          "from": 65,
+          "to": 59
         },
         {
           "id": 123,
           "path": "G",
           "is_runway": false,
           "heading": 132.9,
-          "from": 60,
-          "to": 74
+          "from": 65,
+          "to": 81
         },
         {
           "id": 124,
           "path": "Y",
           "is_runway": false,
           "heading": 43.4,
-          "from": 60,
-          "to": 63
+          "from": 65,
+          "to": 68
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 61,
+      "id": 66,
       "x": 377.5,
       "y": 485.732,
       "valence": 5,
@@ -2325,31 +2456,32 @@
           "path": "F",
           "is_runway": false,
           "heading": 313.4,
-          "from": 61,
-          "to": 59
+          "from": 66,
+          "to": 64
         },
         {
           "id": 126,
           "path": "F",
           "is_runway": false,
           "heading": 133.4,
-          "from": 61,
-          "to": 73
+          "from": 66,
+          "to": 80
         },
         {
           "id": 128,
           "path": "F4",
           "is_runway": false,
           "heading": 43.9,
-          "from": 61,
-          "to": null
+          "from": 66,
+          "to": 71
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 62,
+      "id": 67,
       "x": 380.5,
       "y": 61.7988,
       "valence": 3,
@@ -2359,31 +2491,32 @@
           "path": "4L/22R",
           "is_runway": true,
           "heading": 223.5,
-          "from": 62,
-          "to": 47
+          "from": 67,
+          "to": 52
         },
         {
           "id": 129,
           "path": "P",
           "is_runway": false,
           "heading": 134.2,
-          "from": 62,
-          "to": 67
+          "from": 67,
+          "to": 74
         },
         {
           "id": 130,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 43.5,
-          "from": 62,
-          "to": 65
+          "from": 67,
+          "to": 70
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 63,
+      "id": 68,
       "x": 383.0,
       "y": 271.5,
       "valence": 4,
@@ -2393,39 +2526,40 @@
           "path": "H",
           "is_runway": false,
           "heading": 313.4,
-          "from": 63,
-          "to": 58
+          "from": 68,
+          "to": 63
         },
         {
           "id": 124,
           "path": "Y",
           "is_runway": false,
           "heading": 223.4,
-          "from": 63,
-          "to": 60
+          "from": 68,
+          "to": 65
         },
         {
           "id": 131,
           "path": "H",
           "is_runway": false,
           "heading": 133.2,
-          "from": 63,
-          "to": 72
+          "from": 68,
+          "to": 79
         },
         {
           "id": 132,
           "path": "Y",
           "is_runway": false,
           "heading": 44.6,
-          "from": 63,
-          "to": 69
+          "from": 68,
+          "to": 76
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 64,
+      "id": 69,
       "x": 391.0,
       "y": 421.0,
       "valence": 3,
@@ -2435,31 +2569,32 @@
           "path": "K",
           "is_runway": false,
           "heading": 267.4,
-          "from": 64,
-          "to": 57
+          "from": 69,
+          "to": 62
         },
         {
           "id": 133,
           "path": "K",
           "is_runway": false,
           "heading": 90.0,
-          "from": 64,
-          "to": 75
+          "from": 69,
+          "to": 82
         },
         {
           "id": 134,
           "path": "K",
           "is_runway": false,
           "heading": 35.2,
-          "from": 64,
-          "to": 66
+          "from": 69,
+          "to": 73
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 65,
+      "id": 70,
       "x": 391.205,
       "y": 50.5,
       "valence": 4,
@@ -2469,39 +2604,78 @@
           "path": "N",
           "is_runway": false,
           "heading": 270.0,
-          "from": 65,
-          "to": 52
+          "from": 70,
+          "to": 57
         },
         {
           "id": 130,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 223.5,
-          "from": 65,
-          "to": 62
+          "from": 70,
+          "to": 67
         },
         {
           "id": 135,
           "path": "N",
           "is_runway": false,
           "heading": 90.0,
-          "from": 65,
-          "to": 79
+          "from": 70,
+          "to": 87
         },
         {
           "id": 136,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 43.5,
-          "from": 65,
-          "to": 76
+          "from": 70,
+          "to": 83
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 66,
+      "id": 71,
+      "x": 393.0,
+      "y": 469.63,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 128,
+          "path": "F4",
+          "is_runway": false,
+          "heading": 223.9,
+          "from": 71,
+          "to": 66
+        }
+      ],
+      "crossing_runway": false,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 72,
+      "x": 395.5,
+      "y": 472.0,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 118,
+          "path": "13R/31L",
+          "is_runway": true,
+          "heading": 313.5,
+          "from": 72,
+          "to": 62
+        }
+      ],
+      "crossing_runway": true,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 73,
       "x": 399.604,
       "y": 400.0,
       "valence": 3,
@@ -2511,31 +2685,32 @@
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 66,
-          "to": 54
+          "from": 73,
+          "to": 59
         },
         {
           "id": 134,
           "path": "K",
           "is_runway": false,
           "heading": 191.8,
-          "from": 66,
-          "to": 64
+          "from": 73,
+          "to": 69
         },
         {
           "id": 137,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 66,
-          "to": 75
+          "from": 73,
+          "to": 82
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 67,
+      "id": 74,
       "x": 416.5,
       "y": 172.796,
       "valence": 4,
@@ -2545,39 +2720,40 @@
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 67,
-          "to": 58
+          "from": 74,
+          "to": 63
         },
         {
           "id": 129,
           "path": "P",
           "is_runway": false,
           "heading": 354.4,
-          "from": 67,
-          "to": 62
+          "from": 74,
+          "to": 67
         },
         {
           "id": 138,
           "path": "P",
           "is_runway": false,
           "heading": 180.0,
-          "from": 67,
-          "to": 68
+          "from": 74,
+          "to": 75
         },
         {
           "id": 139,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 67,
-          "to": 82
+          "from": 74,
+          "to": 90
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 68,
+      "id": 75,
       "x": 416.5,
       "y": 221.0,
       "valence": 3,
@@ -2587,31 +2763,32 @@
           "path": "P",
           "is_runway": false,
           "heading": 0.0,
-          "from": 68,
-          "to": 67
+          "from": 75,
+          "to": 74
         },
         {
           "id": 140,
           "path": "P",
           "is_runway": false,
           "heading": 180.0,
-          "from": 68,
-          "to": 69
+          "from": 75,
+          "to": 76
         },
         {
           "id": 141,
           "path": "Y",
           "is_runway": false,
           "heading": 43.9,
-          "from": 68,
-          "to": 85
+          "from": 75,
+          "to": 93
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 69,
+      "id": 76,
       "x": 416.5,
       "y": 237.5,
       "valence": 3,
@@ -2621,31 +2798,32 @@
           "path": "Y",
           "is_runway": false,
           "heading": 224.6,
-          "from": 69,
-          "to": 63
+          "from": 76,
+          "to": 68
         },
         {
           "id": 140,
           "path": "P",
           "is_runway": false,
           "heading": 0.0,
-          "from": 69,
-          "to": 68
+          "from": 76,
+          "to": 75
         },
         {
           "id": 142,
           "path": "P",
           "is_runway": false,
           "heading": 180.0,
-          "from": 69,
-          "to": 70
+          "from": 76,
+          "to": 77
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 70,
+      "id": 77,
       "x": 416.5,
       "y": 253.5,
       "valence": 3,
@@ -2655,31 +2833,32 @@
           "path": "P",
           "is_runway": false,
           "heading": 0.0,
-          "from": 70,
-          "to": 69
+          "from": 77,
+          "to": 76
         },
         {
           "id": 143,
           "path": "T",
           "is_runway": false,
           "heading": 146.3,
-          "from": 70,
-          "to": 77
+          "from": 77,
+          "to": 85
         },
         {
           "id": 144,
           "path": "P",
           "is_runway": false,
           "heading": 180.0,
-          "from": 70,
-          "to": 71
+          "from": 77,
+          "to": 78
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 71,
+      "id": 78,
       "x": 417.5,
       "y": 287.152,
       "valence": 3,
@@ -2689,31 +2868,32 @@
           "path": "P",
           "is_runway": false,
           "heading": 356.8,
-          "from": 71,
-          "to": 70
+          "from": 78,
+          "to": 77
         },
         {
           "id": 145,
           "path": "P",
           "is_runway": false,
           "heading": 176.8,
-          "from": 71,
-          "to": 72
+          "from": 78,
+          "to": 79
         },
         {
           "id": 146,
           "path": "T",
           "is_runway": false,
           "heading": 40.7,
-          "from": 71,
-          "to": 77
+          "from": 78,
+          "to": 85
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 72,
+      "id": 79,
       "x": 418.5,
       "y": 304.804,
       "valence": 4,
@@ -2723,39 +2903,40 @@
           "path": "H",
           "is_runway": false,
           "heading": 313.2,
-          "from": 72,
-          "to": 63
+          "from": 79,
+          "to": 68
         },
         {
           "id": 145,
           "path": "P",
           "is_runway": false,
           "heading": 356.8,
-          "from": 72,
-          "to": 71
+          "from": 79,
+          "to": 78
         },
         {
           "id": 147,
           "path": "H",
           "is_runway": false,
           "heading": 133.2,
-          "from": 72,
-          "to": 89
+          "from": 79,
+          "to": 97
         },
         {
           "id": 148,
           "path": "P",
           "is_runway": false,
           "heading": 176.6,
-          "from": 72,
-          "to": 74
+          "from": 79,
+          "to": 81
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 73,
+      "id": 80,
       "x": 419.0,
       "y": 525.0,
       "valence": 3,
@@ -2765,31 +2946,32 @@
           "path": "SouthRamp",
           "is_runway": false,
           "heading": 240.5,
-          "from": 73,
-          "to": 56
+          "from": 80,
+          "to": 61
         },
         {
           "id": 126,
           "path": "F",
           "is_runway": false,
           "heading": 313.4,
-          "from": 73,
-          "to": 61
+          "from": 80,
+          "to": 66
         },
         {
           "id": 149,
           "path": "F",
           "is_runway": false,
           "heading": 90.0,
-          "from": 73,
-          "to": 98
+          "from": 80,
+          "to": 106
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 74,
+      "id": 81,
       "x": 421.685,
       "y": 359.104,
       "valence": 3,
@@ -2799,31 +2981,32 @@
           "path": "G",
           "is_runway": false,
           "heading": 312.9,
-          "from": 74,
-          "to": 60
+          "from": 81,
+          "to": 65
         },
         {
           "id": 148,
           "path": "P",
           "is_runway": false,
           "heading": 356.6,
-          "from": 74,
-          "to": 72
+          "from": 81,
+          "to": 79
         },
         {
           "id": 150,
           "path": "G",
           "is_runway": false,
           "heading": 132.9,
-          "from": 74,
-          "to": 84
+          "from": 81,
+          "to": 92
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 75,
+      "id": 82,
       "x": 421.685,
       "y": 421.0,
       "valence": 4,
@@ -2833,39 +3016,40 @@
           "path": "K",
           "is_runway": false,
           "heading": 270.0,
-          "from": 75,
-          "to": 64
+          "from": 82,
+          "to": 69
         },
         {
           "id": 137,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 75,
-          "to": 66
+          "from": 82,
+          "to": 73
         },
         {
           "id": 151,
           "path": "K",
           "is_runway": false,
           "heading": 90.0,
-          "from": 75,
-          "to": 84
+          "from": 82,
+          "to": 92
         },
         {
           "id": 152,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 75,
-          "to": 91
+          "from": 82,
+          "to": 99
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 76,
+      "id": 83,
       "x": 429.105,
       "y": 10.5,
       "valence": 3,
@@ -2875,39 +3059,51 @@
           "path": "4L/22R",
           "is_runway": true,
           "heading": 223.5,
-          "from": 76,
-          "to": 65
+          "from": 83,
+          "to": 70
         },
         {
           "id": 153,
           "path": "Q",
           "is_runway": false,
           "heading": 128.5,
-          "from": 76,
-          "to": 78
+          "from": 83,
+          "to": 86
         },
         {
           "id": 154,
           "path": "4L/22R",
           "is_runway": true,
           "heading": 43.5,
-          "from": 76,
-          "to": 76
-        },
-        {
-          "id": 154,
-          "path": "4L/22R",
-          "is_runway": true,
-          "heading": 43.5,
-          "from": 76,
-          "to": 76
+          "from": 83,
+          "to": 84
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 77,
+      "id": 84,
+      "x": 431.0,
+      "y": 8.5,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 154,
+          "path": "4L/22R",
+          "is_runway": true,
+          "heading": 223.5,
+          "from": 84,
+          "to": 83
+        }
+      ],
+      "crossing_runway": false,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 85,
       "x": 442.5,
       "y": 283.0,
       "valence": 3,
@@ -2917,31 +3113,32 @@
           "path": "T",
           "is_runway": false,
           "heading": 316.3,
-          "from": 77,
-          "to": 70
+          "from": 85,
+          "to": 77
         },
         {
           "id": 146,
           "path": "T",
           "is_runway": false,
           "heading": 300.5,
-          "from": 77,
-          "to": 71
+          "from": 85,
+          "to": 78
         },
         {
           "id": 155,
           "path": "T",
           "is_runway": false,
           "heading": 134.1,
-          "from": 77,
-          "to": 80
+          "from": 85,
+          "to": 88
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 78,
+      "id": 86,
       "x": 458.0,
       "y": 33.5,
       "valence": 4,
@@ -2951,39 +3148,40 @@
           "path": "Q",
           "is_runway": false,
           "heading": 308.5,
-          "from": 78,
-          "to": 76
+          "from": 86,
+          "to": 83
         },
         {
           "id": 156,
           "path": "Q",
           "is_runway": false,
           "heading": 140.5,
-          "from": 78,
-          "to": 81
+          "from": 86,
+          "to": 89
         },
         {
           "id": 157,
           "path": "N",
           "is_runway": false,
           "heading": 180.0,
-          "from": 78,
-          "to": 79
+          "from": 86,
+          "to": 87
         },
         {
           "id": 158,
           "path": "R",
           "is_runway": false,
           "heading": 46.7,
-          "from": 78,
-          "to": 101
+          "from": 86,
+          "to": 110
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 79,
+      "id": 87,
       "x": 458.0,
       "y": 50.5,
       "valence": 3,
@@ -2993,31 +3191,32 @@
           "path": "N",
           "is_runway": false,
           "heading": 270.0,
-          "from": 79,
-          "to": 65
+          "from": 87,
+          "to": 70
         },
         {
           "id": 157,
           "path": "N",
           "is_runway": false,
           "heading": 0.0,
-          "from": 79,
-          "to": 78
+          "from": 87,
+          "to": 86
         },
         {
           "id": 159,
           "path": "N",
           "is_runway": false,
           "heading": 90.0,
-          "from": 79,
-          "to": 81
+          "from": 87,
+          "to": 89
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 80,
+      "id": 88,
       "x": 466.214,
       "y": 306.0,
       "valence": 3,
@@ -3027,31 +3226,32 @@
           "path": "T",
           "is_runway": false,
           "heading": 314.1,
-          "from": 80,
-          "to": 77
+          "from": 88,
+          "to": 85
         },
         {
           "id": 160,
           "path": "T",
           "is_runway": false,
           "heading": 134.1,
-          "from": 80,
-          "to": 83
+          "from": 88,
+          "to": 91
         },
         {
           "id": 161,
           "path": "T1",
           "is_runway": false,
           "heading": 45.6,
-          "from": 80,
-          "to": null
+          "from": 88,
+          "to": 115
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 81,
+      "id": 89,
       "x": 472.0,
       "y": 50.5,
       "valence": 3,
@@ -3061,31 +3261,32 @@
           "path": "Q",
           "is_runway": false,
           "heading": 320.5,
-          "from": 81,
-          "to": 78
+          "from": 89,
+          "to": 86
         },
         {
           "id": 159,
           "path": "N",
           "is_runway": false,
           "heading": 270.0,
-          "from": 81,
-          "to": 79
+          "from": 89,
+          "to": 87
         },
         {
           "id": 162,
           "path": "Q",
           "is_runway": false,
           "heading": 131.3,
-          "from": 81,
-          "to": 87
+          "from": 89,
+          "to": 95
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 82,
+      "id": 90,
       "x": 472.0,
       "y": 114.291,
       "valence": 3,
@@ -3095,31 +3296,32 @@
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 82,
-          "to": 67
+          "from": 90,
+          "to": 74
         },
         {
           "id": 163,
           "path": "Y5",
           "is_runway": false,
           "heading": 105.7,
-          "from": 82,
-          "to": 86
+          "from": 90,
+          "to": 94
         },
         {
           "id": 164,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 82,
-          "to": 87
+          "from": 90,
+          "to": 95
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 83,
+      "id": 91,
       "x": 480.134,
       "y": 319.5,
       "valence": 3,
@@ -3129,31 +3331,32 @@
           "path": "T",
           "is_runway": false,
           "heading": 314.1,
-          "from": 83,
-          "to": 80
+          "from": 91,
+          "to": 88
         },
         {
           "id": 165,
           "path": "T",
           "is_runway": false,
           "heading": 134.1,
-          "from": 83,
-          "to": 93
+          "from": 91,
+          "to": 101
         },
         {
           "id": 166,
           "path": "T2",
           "is_runway": false,
           "heading": 45.8,
-          "from": 83,
-          "to": null
+          "from": 91,
+          "to": 114
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 84,
+      "id": 92,
       "x": 480.5,
       "y": 421.0,
       "valence": 4,
@@ -3163,39 +3366,40 @@
           "path": "G",
           "is_runway": false,
           "heading": 328.3,
-          "from": 84,
-          "to": 74
+          "from": 92,
+          "to": 81
         },
         {
           "id": 151,
           "path": "K",
           "is_runway": false,
           "heading": 270.0,
-          "from": 84,
-          "to": 75
+          "from": 92,
+          "to": 82
         },
         {
           "id": 167,
           "path": "K",
           "is_runway": false,
           "heading": 90.0,
-          "from": 84,
-          "to": 90
+          "from": 92,
+          "to": 98
         },
         {
           "id": 168,
           "path": "G",
           "is_runway": false,
           "heading": 131.5,
-          "from": 84,
-          "to": 95
+          "from": 92,
+          "to": 103
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 85,
+      "id": 93,
       "x": 492.5,
       "y": 141.893,
       "valence": 3,
@@ -3205,31 +3409,32 @@
           "path": "Y",
           "is_runway": false,
           "heading": 223.9,
-          "from": 85,
-          "to": 68
+          "from": 93,
+          "to": 75
         },
         {
           "id": 169,
           "path": "Y5",
           "is_runway": false,
           "heading": 4.0,
-          "from": 85,
-          "to": 86
+          "from": 93,
+          "to": 94
         },
         {
           "id": 170,
           "path": "Y",
           "is_runway": false,
           "heading": 43.9,
-          "from": 85,
-          "to": 88
+          "from": 93,
+          "to": 96
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 86,
+      "id": 94,
       "x": 494.0,
       "y": 120.491,
       "valence": 3,
@@ -3239,31 +3444,32 @@
           "path": "Y5",
           "is_runway": false,
           "heading": 285.7,
-          "from": 86,
-          "to": 82
+          "from": 94,
+          "to": 90
         },
         {
           "id": 169,
           "path": "Y5",
           "is_runway": false,
           "heading": 184.0,
-          "from": 86,
-          "to": 85
+          "from": 94,
+          "to": 93
         },
         {
           "id": 171,
           "path": "Y5",
           "is_runway": false,
           "heading": 105.7,
-          "from": 86,
-          "to": 88
+          "from": 94,
+          "to": 96
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 87,
+      "id": 95,
       "x": 505.0,
       "y": 79.5046,
       "valence": 4,
@@ -3273,39 +3479,40 @@
           "path": "Q",
           "is_runway": false,
           "heading": 311.3,
-          "from": 87,
-          "to": 81
+          "from": 95,
+          "to": 89
         },
         {
           "id": 164,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 87,
-          "to": 82
+          "from": 95,
+          "to": 90
         },
         {
           "id": 172,
           "path": "Q",
           "is_runway": false,
           "heading": 133.4,
-          "from": 87,
-          "to": 94
+          "from": 95,
+          "to": 102
         },
         {
           "id": 173,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 87,
-          "to": 96
+          "from": 95,
+          "to": 104
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 88,
+      "id": 96,
       "x": 509.0,
       "y": 124.719,
       "valence": 3,
@@ -3315,31 +3522,32 @@
           "path": "Y",
           "is_runway": false,
           "heading": 223.9,
-          "from": 88,
-          "to": 85
+          "from": 96,
+          "to": 93
         },
         {
           "id": 171,
           "path": "Y5",
           "is_runway": false,
           "heading": 285.7,
-          "from": 88,
-          "to": 86
+          "from": 96,
+          "to": 94
         },
         {
           "id": 174,
           "path": "Y",
           "is_runway": false,
           "heading": 43.9,
-          "from": 88,
-          "to": 94
+          "from": 96,
+          "to": 102
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 89,
+      "id": 97,
       "x": 512.0,
       "y": 392.521,
       "valence": 3,
@@ -3349,31 +3557,32 @@
           "path": "H",
           "is_runway": false,
           "heading": 313.2,
-          "from": 89,
-          "to": 72
+          "from": 97,
+          "to": 79
         },
         {
           "id": 175,
           "path": "H",
           "is_runway": false,
           "heading": 133.2,
-          "from": 89,
-          "to": 92
+          "from": 97,
+          "to": 100
         },
         {
           "id": 176,
           "path": "T",
           "is_runway": false,
           "heading": 72.4,
-          "from": 89,
-          "to": 93
+          "from": 97,
+          "to": 101
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 90,
+      "id": 98,
       "x": 513.5,
       "y": 421.0,
       "valence": 3,
@@ -3383,31 +3592,32 @@
           "path": "K",
           "is_runway": false,
           "heading": 270.0,
-          "from": 90,
-          "to": 84
+          "from": 98,
+          "to": 92
         },
         {
           "id": 177,
           "path": "K",
           "is_runway": false,
           "heading": 116.6,
-          "from": 90,
-          "to": 95
+          "from": 98,
+          "to": 103
         },
         {
           "id": 178,
           "path": "K",
           "is_runway": false,
           "heading": 43.3,
-          "from": 90,
-          "to": 92
+          "from": 98,
+          "to": 100
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 91,
+      "id": 99,
       "x": 515.0,
       "y": 509.748,
       "valence": 3,
@@ -3417,31 +3627,32 @@
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 91,
-          "to": 75
+          "from": 99,
+          "to": 82
         },
         {
           "id": 179,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 91,
-          "to": 98
+          "from": 99,
+          "to": 106
         },
         {
           "id": 180,
           "path": "E2",
           "is_runway": false,
           "heading": 56.6,
-          "from": 91,
-          "to": 100
+          "from": 99,
+          "to": 109
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 92,
+      "id": 100,
       "x": 521.5,
       "y": 401.433,
       "valence": 3,
@@ -3451,31 +3662,32 @@
           "path": "H",
           "is_runway": false,
           "heading": 313.2,
-          "from": 92,
-          "to": 89
+          "from": 100,
+          "to": 97
         },
         {
           "id": 178,
           "path": "K",
           "is_runway": false,
           "heading": 180.0,
-          "from": 92,
-          "to": 90
+          "from": 100,
+          "to": 98
         },
         {
           "id": 181,
           "path": "H",
           "is_runway": false,
           "heading": 133.2,
-          "from": 92,
-          "to": 99
+          "from": 100,
+          "to": 108
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 93,
+      "id": 101,
       "x": 525.5,
       "y": 363.5,
       "valence": 3,
@@ -3485,31 +3697,32 @@
           "path": "T",
           "is_runway": false,
           "heading": 314.1,
-          "from": 93,
-          "to": 83
+          "from": 101,
+          "to": 91
         },
         {
           "id": 176,
           "path": "T",
           "is_runway": false,
           "heading": 180.0,
-          "from": 93,
-          "to": 89
+          "from": 101,
+          "to": 97
         },
         {
           "id": 182,
           "path": "T",
           "is_runway": false,
           "heading": 135.9,
-          "from": 93,
-          "to": 97
+          "from": 101,
+          "to": 105
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 94,
+      "id": 102,
       "x": 529.866,
       "y": 103.0,
       "valence": 3,
@@ -3519,31 +3732,32 @@
           "path": "Q",
           "is_runway": false,
           "heading": 313.4,
-          "from": 94,
-          "to": 87
+          "from": 102,
+          "to": 95
         },
         {
           "id": 174,
           "path": "Y",
           "is_runway": false,
           "heading": 223.9,
-          "from": 94,
-          "to": 88
+          "from": 102,
+          "to": 96
         },
         {
           "id": 183,
           "path": "Y",
           "is_runway": false,
           "heading": 43.9,
-          "from": 94,
-          "to": 102
+          "from": 102,
+          "to": 111
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 95,
+      "id": 103,
       "x": 531.5,
       "y": 466.115,
       "valence": 3,
@@ -3553,31 +3767,32 @@
           "path": "G",
           "is_runway": false,
           "heading": 311.5,
-          "from": 95,
-          "to": 84
+          "from": 103,
+          "to": 92
         },
         {
           "id": 177,
           "path": "K",
           "is_runway": false,
           "heading": 0.0,
-          "from": 95,
-          "to": 90
+          "from": 103,
+          "to": 98
         },
         {
           "id": 184,
           "path": "G",
           "is_runway": false,
           "heading": 131.5,
-          "from": 95,
-          "to": 99
+          "from": 103,
+          "to": 108
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 96,
+      "id": 104,
       "x": 532.515,
       "y": 50.5,
       "valence": 3,
@@ -3587,31 +3802,32 @@
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 96,
-          "to": 87
+          "from": 104,
+          "to": 95
         },
         {
           "id": 185,
           "path": "Y6",
           "is_runway": false,
           "heading": 136.6,
-          "from": 96,
-          "to": 102
+          "from": 104,
+          "to": 111
         },
         {
           "id": 186,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 96,
-          "to": 101
+          "from": 104,
+          "to": 110
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 97,
+      "id": 105,
       "x": 533.0,
       "y": 371.25,
       "valence": 3,
@@ -3621,31 +3837,32 @@
           "path": "T",
           "is_runway": false,
           "heading": 315.9,
-          "from": 97,
-          "to": 93
+          "from": 105,
+          "to": 101
         },
         {
           "id": 187,
           "path": "T",
           "is_runway": false,
           "heading": 135.9,
-          "from": 97,
-          "to": 103
+          "from": 105,
+          "to": 112
         },
         {
           "id": 188,
           "path": "T3",
           "is_runway": false,
           "heading": 46.6,
-          "from": 97,
-          "to": null
+          "from": 105,
+          "to": 116
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 98,
+      "id": 106,
       "x": 534.5,
       "y": 528.294,
       "valence": 4,
@@ -3655,47 +3872,59 @@
           "path": "F",
           "is_runway": false,
           "heading": 228.6,
-          "from": 98,
-          "to": 73
+          "from": 106,
+          "to": 80
         },
         {
           "id": 179,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 313.6,
-          "from": 98,
-          "to": 91
+          "from": 106,
+          "to": 99
         },
         {
           "id": 189,
           "path": "13L/31R",
           "is_runway": true,
           "heading": 133.6,
-          "from": 98,
-          "to": 98
-        },
-        {
-          "id": 189,
-          "path": "13L/31R",
-          "is_runway": true,
-          "heading": 133.6,
-          "from": 98,
-          "to": 98
+          "from": 106,
+          "to": 107
         },
         {
           "id": 190,
           "path": "E3",
           "is_runway": false,
           "heading": 49.5,
-          "from": 98,
-          "to": 103
+          "from": 106,
+          "to": 112
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 99,
+      "id": 107,
+      "x": 540.5,
+      "y": 534.0,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 189,
+          "path": "13L/31R",
+          "is_runway": true,
+          "heading": 313.6,
+          "from": 107,
+          "to": 106
+        }
+      ],
+      "crossing_runway": true,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 108,
       "x": 545.0,
       "y": 478.058,
       "valence": 3,
@@ -3705,31 +3934,32 @@
           "path": "H",
           "is_runway": false,
           "heading": 0.0,
-          "from": 99,
-          "to": 92
+          "from": 108,
+          "to": 100
         },
         {
           "id": 184,
           "path": "G",
           "is_runway": false,
           "heading": 311.5,
-          "from": 99,
-          "to": 95
+          "from": 108,
+          "to": 103
         },
         {
           "id": 191,
           "path": "G",
           "is_runway": false,
           "heading": 131.5,
-          "from": 99,
-          "to": 100
+          "from": 108,
+          "to": 109
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 100,
+      "id": 109,
       "x": 547.0,
       "y": 479.827,
       "valence": 3,
@@ -3739,31 +3969,32 @@
           "path": "E2",
           "is_runway": false,
           "heading": 222.0,
-          "from": 100,
-          "to": 91
+          "from": 109,
+          "to": 99
         },
         {
           "id": 191,
           "path": "G",
           "is_runway": false,
           "heading": 311.5,
-          "from": 100,
-          "to": 99
+          "from": 109,
+          "to": 108
         },
         {
           "id": 192,
           "path": "G",
           "is_runway": false,
           "heading": 131.5,
-          "from": 100,
-          "to": 103
+          "from": 109,
+          "to": 112
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 101,
+      "id": 110,
       "x": 556.231,
       "y": 25.5,
       "valence": 4,
@@ -3773,47 +4004,40 @@
           "path": "R",
           "is_runway": false,
           "heading": 314.7,
-          "from": 101,
-          "to": 78
+          "from": 110,
+          "to": 86
         },
         {
           "id": 186,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 223.5,
-          "from": 101,
-          "to": 96
+          "from": 110,
+          "to": 104
         },
         {
           "id": 193,
           "path": "Y7",
           "is_runway": false,
           "heading": 131.8,
-          "from": 101,
-          "to": 102
+          "from": 110,
+          "to": 111
         },
         {
           "id": 194,
           "path": "4R/22L",
           "is_runway": true,
           "heading": 43.5,
-          "from": 101,
-          "to": 101
-        },
-        {
-          "id": 194,
-          "path": "4R/22L",
-          "is_runway": true,
-          "heading": 43.5,
-          "from": 101,
-          "to": 101
+          "from": 110,
+          "to": 113
         }
       ],
       "crossing_runway": true,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 102,
+      "id": 111,
       "x": 556.231,
       "y": 75.5566,
       "valence": 3,
@@ -3823,31 +4047,32 @@
           "path": "Y",
           "is_runway": false,
           "heading": 223.9,
-          "from": 102,
-          "to": 94
+          "from": 111,
+          "to": 102
         },
         {
           "id": 185,
           "path": "Y6",
           "is_runway": false,
           "heading": 316.6,
-          "from": 102,
-          "to": 96
+          "from": 111,
+          "to": 104
         },
         {
           "id": 193,
           "path": "Y7",
           "is_runway": false,
           "heading": 43.9,
-          "from": 102,
-          "to": 101
+          "from": 111,
+          "to": 110
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
     },
     {
-      "id": 103,
+      "id": 112,
       "x": 558.5,
       "y": 490.0,
       "valence": 3,
@@ -3857,28 +4082,105 @@
           "path": "T",
           "is_runway": false,
           "heading": 0.0,
-          "from": 103,
-          "to": 97
+          "from": 112,
+          "to": 105
         },
         {
           "id": 190,
           "path": "E3",
           "is_runway": false,
           "heading": 170.1,
-          "from": 103,
-          "to": 98
+          "from": 112,
+          "to": 106
         },
         {
           "id": 192,
           "path": "G",
           "is_runway": false,
           "heading": 311.5,
-          "from": 103,
-          "to": 100
+          "from": 112,
+          "to": 109
         }
       ],
       "crossing_runway": false,
-      "is_gate": false
+      "is_gate": false,
+      "is_end": false
+    },
+    {
+      "id": 113,
+      "x": 560.5,
+      "y": 21.0,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 194,
+          "path": "4R/22L",
+          "is_runway": true,
+          "heading": 223.5,
+          "from": 113,
+          "to": 110
+        }
+      ],
+      "crossing_runway": true,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 114,
+      "x": 572.78,
+      "y": 204.5,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 166,
+          "path": "T2",
+          "is_runway": false,
+          "heading": 190.8,
+          "from": 114,
+          "to": 91
+        }
+      ],
+      "crossing_runway": false,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 115,
+      "x": 574.5,
+      "y": 195.5,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 161,
+          "path": "T1",
+          "is_runway": false,
+          "heading": 224.3,
+          "from": 115,
+          "to": 88
+        }
+      ],
+      "crossing_runway": false,
+      "is_gate": false,
+      "is_end": true
+    },
+    {
+      "id": 116,
+      "x": 597.5,
+      "y": 288.5,
+      "valence": 1,
+      "edges": [
+        {
+          "id": 188,
+          "path": "T3",
+          "is_runway": false,
+          "heading": 226.5,
+          "from": 116,
+          "to": 105
+        }
+      ],
+      "crossing_runway": false,
+      "is_gate": false,
+      "is_end": true
     }
   ],
   "edges": [
@@ -3903,7 +4205,7 @@
       "path": "4L/22R",
       "type": "Runways",
       "from": 0,
-      "to": 0
+      "to": 1
     },
     {
       "id": 1,
@@ -4417,8 +4719,8 @@
       "original_id": "Z_21",
       "path": "Z",
       "type": "Taxiways",
-      "from": 10,
-      "to": 0
+      "from": 12,
+      "to": 1
     },
     {
       "id": 2,
@@ -4604,8 +4906,8 @@
       "original_id": "4L/22R_574",
       "path": "4L/22R",
       "type": "Runways",
-      "from": 0,
-      "to": 5
+      "from": 1,
+      "to": 7
     },
     {
       "id": 3,
@@ -4635,8 +4937,8 @@
       "original_id": "13L/31R_0",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 1,
-      "to": 1
+      "from": 3,
+      "to": 2
     },
     {
       "id": 4,
@@ -4742,8 +5044,8 @@
       "original_id": "13L/31R_4",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 3,
-      "to": 1
+      "from": 5,
+      "to": 3
     },
     {
       "id": 5,
@@ -5357,8 +5659,8 @@
       "original_id": "W_0",
       "path": "W",
       "type": "Taxiways",
-      "from": 4,
-      "to": 1
+      "from": 6,
+      "to": 3
     },
     {
       "id": 6,
@@ -5600,8 +5902,8 @@
       "original_id": "H1_56",
       "path": "H1",
       "type": "Taxiways",
-      "from": 8,
-      "to": 1
+      "from": 10,
+      "to": 3
     },
     {
       "id": 7,
@@ -5967,8 +6269,8 @@
       "original_id": "WestRamp_71",
       "path": "WestRamp",
       "type": "NMA",
-      "from": 2,
-      "to": 7
+      "from": 4,
+      "to": 9
     },
     {
       "id": 8,
@@ -6266,8 +6568,8 @@
       "original_id": "F_650",
       "path": "F",
       "type": "Taxiways",
-      "from": 4,
-      "to": 2
+      "from": 6,
+      "to": 4
     },
     {
       "id": 9,
@@ -6341,8 +6643,8 @@
       "original_id": "A_98",
       "path": "A",
       "type": "Taxiways",
-      "from": 2,
-      "to": 6
+      "from": 4,
+      "to": 8
     },
     {
       "id": 10,
@@ -6862,8 +7164,8 @@
       "original_id": "13L/31R_56",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 18,
-      "to": 3
+      "from": 22,
+      "to": 5
     },
     {
       "id": 13,
@@ -7033,8 +7335,8 @@
       "original_id": "H2_15",
       "path": "H2",
       "type": "Taxiways",
-      "from": 3,
-      "to": 9
+      "from": 5,
+      "to": 11
     },
     {
       "id": 14,
@@ -7300,8 +7602,8 @@
       "original_id": "F_632",
       "path": "F",
       "type": "Taxiways",
-      "from": 4,
-      "to": 12
+      "from": 6,
+      "to": 16
     },
     {
       "id": 15,
@@ -7531,8 +7833,8 @@
       "original_id": "W_150",
       "path": "W",
       "type": "Taxiways",
-      "from": 6,
-      "to": 4
+      "from": 8,
+      "to": 6
     },
     {
       "id": 16,
@@ -7950,8 +8252,8 @@
       "original_id": "V_48",
       "path": "V",
       "type": "Taxiways",
-      "from": 17,
-      "to": 5
+      "from": 21,
+      "to": 7
     },
     {
       "id": 17,
@@ -8425,8 +8727,8 @@
       "original_id": "W_277",
       "path": "W",
       "type": "Taxiways",
-      "from": 5,
-      "to": 7
+      "from": 7,
+      "to": 9
     },
     {
       "id": 18,
@@ -9064,8 +9366,8 @@
       "original_id": "4L/22R_396",
       "path": "4L/22R",
       "type": "Runways",
-      "from": 5,
-      "to": 26
+      "from": 7,
+      "to": 30
     },
     {
       "id": 19,
@@ -9282,8 +9584,8 @@
       "original_id": "A_62",
       "path": "A",
       "type": "Taxiways",
-      "from": 6,
-      "to": 12
+      "from": 8,
+      "to": 16
     },
     {
       "id": 21,
@@ -9589,8 +9891,8 @@
       "original_id": "W_204",
       "path": "W",
       "type": "Taxiways",
-      "from": 7,
-      "to": 6
+      "from": 9,
+      "to": 8
     },
     {
       "id": 22,
@@ -10028,8 +10330,8 @@
       "original_id": "J_41",
       "path": "J",
       "type": "Taxiways",
-      "from": 7,
-      "to": 26
+      "from": 9,
+      "to": 30
     },
     {
       "id": 23,
@@ -10103,8 +10405,8 @@
       "original_id": "H2_7",
       "path": "H2",
       "type": "Taxiways",
-      "from": 9,
-      "to": 8
+      "from": 11,
+      "to": 10
     },
     {
       "id": 24,
@@ -10490,8 +10792,8 @@
       "original_id": "H1_100",
       "path": "H1",
       "type": "Taxiways",
-      "from": 23,
-      "to": 8
+      "from": 27,
+      "to": 10
     },
     {
       "id": 25,
@@ -10621,8 +10923,8 @@
       "original_id": "N_401",
       "path": "N",
       "type": "Taxiways",
-      "from": 9,
-      "to": 13
+      "from": 11,
+      "to": 17
     },
     {
       "id": 26,
@@ -10880,8 +11182,8 @@
       "original_id": "Y1_17",
       "path": "Y1",
       "type": "Taxiways",
-      "from": 20,
-      "to": 10
+      "from": 24,
+      "to": 12
     },
     {
       "id": 27,
@@ -11191,8 +11493,8 @@
       "original_id": "4R/22L_69",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 17,
-      "to": 10
+      "from": 21,
+      "to": 12
     },
     {
       "id": 28,
@@ -11290,8 +11592,8 @@
       "original_id": "F1_19",
       "path": "F1",
       "type": "Taxiways",
-      "from": 11,
-      "to": null
+      "from": 14,
+      "to": 13
     },
     {
       "id": 29,
@@ -11317,8 +11619,8 @@
       "original_id": "13R/31L_0",
       "path": "13R/31L",
       "type": "Runways",
-      "from": 11,
-      "to": 11
+      "from": 14,
+      "to": 14
     },
     {
       "id": 30,
@@ -11432,8 +11734,8 @@
       "original_id": "13R/31L_3",
       "path": "13R/31L",
       "type": "Runways",
-      "from": 15,
-      "to": 11
+      "from": 19,
+      "to": 14
     },
     {
       "id": 31,
@@ -11878,8 +12180,8 @@
       "original_id": "F_504",
       "path": "F",
       "type": "Taxiways",
-      "from": 12,
-      "to": 29
+      "from": 16,
+      "to": 33
     },
     {
       "id": 33,
@@ -11977,8 +12279,8 @@
       "original_id": "A_30",
       "path": "A",
       "type": "Taxiways",
-      "from": 12,
-      "to": 15
+      "from": 16,
+      "to": 19
     },
     {
       "id": 34,
@@ -12088,8 +12390,8 @@
       "original_id": "N_363",
       "path": "N",
       "type": "Taxiways",
-      "from": 13,
-      "to": 16
+      "from": 17,
+      "to": 20
     },
     {
       "id": 35,
@@ -12215,8 +12517,8 @@
       "original_id": "H3_120",
       "path": "H3",
       "type": "Taxiways",
-      "from": 13,
-      "to": 14
+      "from": 17,
+      "to": 18
     },
     {
       "id": 36,
@@ -12498,8 +12800,8 @@
       "original_id": "H3_66",
       "path": "H3",
       "type": "Taxiways",
-      "from": 14,
-      "to": 18
+      "from": 18,
+      "to": 22
     },
     {
       "id": 37,
@@ -12617,8 +12919,8 @@
       "original_id": "H3_92",
       "path": "H3",
       "type": "Taxiways",
-      "from": 16,
-      "to": 14
+      "from": 20,
+      "to": 18
     },
     {
       "id": 38,
@@ -13048,8 +13350,8 @@
       "original_id": "13R/31L_118",
       "path": "13R/31L",
       "type": "Runways",
-      "from": 32,
-      "to": 15
+      "from": 36,
+      "to": 19
     },
     {
       "id": 39,
@@ -13183,8 +13485,8 @@
       "original_id": "A_12",
       "path": "A",
       "type": "Taxiways",
-      "from": 15,
-      "to": 19
+      "from": 19,
+      "to": 23
     },
     {
       "id": 40,
@@ -13318,8 +13620,8 @@
       "original_id": "N_337",
       "path": "N",
       "type": "Taxiways",
-      "from": 16,
-      "to": 23
+      "from": 20,
+      "to": 27
     },
     {
       "id": 41,
@@ -13509,8 +13811,8 @@
       "original_id": "V_101",
       "path": "V",
       "type": "Taxiways",
-      "from": 24,
-      "to": 17
+      "from": 28,
+      "to": 21
     },
     {
       "id": 42,
@@ -13904,8 +14206,8 @@
       "original_id": "4R/22L_155",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 35,
-      "to": 17
+      "from": 39,
+      "to": 21
     },
     {
       "id": 43,
@@ -14031,8 +14333,8 @@
       "original_id": "13L/31R_164",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 21,
-      "to": 18
+      "from": 25,
+      "to": 22
     },
     {
       "id": 44,
@@ -14198,8 +14500,8 @@
       "original_id": "A_123",
       "path": "A",
       "type": "Taxiways",
-      "from": 28,
-      "to": 19
+      "from": 32,
+      "to": 23
     },
     {
       "id": 45,
@@ -14313,8 +14615,8 @@
       "original_id": "A_165",
       "path": "A",
       "type": "Taxiways",
-      "from": 21,
-      "to": 19
+      "from": 25,
+      "to": 23
     },
     {
       "id": 46,
@@ -14432,8 +14734,8 @@
       "original_id": "Y_9",
       "path": "Y",
       "type": "Taxiways",
-      "from": 22,
-      "to": 20
+      "from": 26,
+      "to": 24
     },
     {
       "id": 47,
@@ -14539,8 +14841,8 @@
       "original_id": "Y1_81",
       "path": "Y1",
       "type": "Taxiways",
-      "from": 25,
-      "to": 20
+      "from": 29,
+      "to": 24
     },
     {
       "id": 48,
@@ -14666,8 +14968,8 @@
       "original_id": "13L/31R_190",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 28,
-      "to": 21
+      "from": 32,
+      "to": 25
     },
     {
       "id": 49,
@@ -14737,8 +15039,8 @@
       "original_id": "Y_665",
       "path": "Y",
       "type": "Taxiways",
-      "from": 25,
-      "to": 22
+      "from": 29,
+      "to": 26
     },
     {
       "id": 50,
@@ -14776,8 +15078,8 @@
       "original_id": "Y_659",
       "path": "Y",
       "type": "Taxiways",
-      "from": 22,
-      "to": 24
+      "from": 26,
+      "to": 28
     },
     {
       "id": 51,
@@ -15103,8 +15405,8 @@
       "original_id": "N_316",
       "path": "N",
       "type": "Taxiways",
-      "from": 23,
-      "to": 40
+      "from": 27,
+      "to": 45
     },
     {
       "id": 52,
@@ -15814,8 +16116,8 @@
       "original_id": "H_49",
       "path": "H",
       "type": "Taxiways",
-      "from": 47,
-      "to": 23
+      "from": 52,
+      "to": 27
     },
     {
       "id": 53,
@@ -15973,8 +16275,8 @@
       "original_id": "Y_624",
       "path": "Y",
       "type": "Taxiways",
-      "from": 24,
-      "to": 30
+      "from": 28,
+      "to": 34
     },
     {
       "id": 54,
@@ -16012,8 +16314,8 @@
       "original_id": "Y1_85",
       "path": "Y1",
       "type": "Taxiways",
-      "from": 27,
-      "to": 25
+      "from": 31,
+      "to": 29
     },
     {
       "id": 55,
@@ -16119,8 +16421,8 @@
       "original_id": "J_0",
       "path": "J",
       "type": "Taxiways",
-      "from": 26,
-      "to": 31
+      "from": 30,
+      "to": 35
     },
     {
       "id": 56,
@@ -16198,8 +16500,8 @@
       "original_id": "4L/22R_380",
       "path": "4L/22R",
       "type": "Runways",
-      "from": 26,
-      "to": 29
+      "from": 30,
+      "to": 33
     },
     {
       "id": 57,
@@ -16432,8 +16734,8 @@
       "original_id": "Y1_134",
       "path": "Y1",
       "type": "Taxiways",
-      "from": 22,
-      "to": null
+      "from": 43,
+      "to": 26
     },
     {
       "id": 59,
@@ -16651,8 +16953,8 @@
       "original_id": "SouthRamp_333",
       "path": "SouthRamp",
       "type": "NMA",
-      "from": 27,
-      "to": 37
+      "from": 31,
+      "to": 41
     },
     {
       "id": 60,
@@ -16966,8 +17268,8 @@
       "original_id": "13L/31R_219",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 39,
-      "to": 28
+      "from": 44,
+      "to": 32
     },
     {
       "id": 61,
@@ -17049,8 +17351,8 @@
       "original_id": "F_452",
       "path": "F",
       "type": "Taxiways",
-      "from": 29,
-      "to": 31
+      "from": 33,
+      "to": 35
     },
     {
       "id": 62,
@@ -17152,8 +17454,8 @@
       "original_id": "4L/22R_364",
       "path": "4L/22R",
       "type": "Runways",
-      "from": 29,
-      "to": 32
+      "from": 33,
+      "to": 36
     },
     {
       "id": 63,
@@ -17291,8 +17593,8 @@
       "original_id": "Y2_30",
       "path": "Y2",
       "type": "Taxiways",
-      "from": 34,
-      "to": 30
+      "from": 38,
+      "to": 34
     },
     {
       "id": 64,
@@ -17326,8 +17628,8 @@
       "original_id": "Y_618",
       "path": "Y",
       "type": "Taxiways",
-      "from": 30,
-      "to": 33
+      "from": 34,
+      "to": 37
     },
     {
       "id": 65,
@@ -17681,8 +17983,8 @@
       "original_id": "F_451",
       "path": "F",
       "type": "Taxiways",
-      "from": 31,
-      "to": 43
+      "from": 35,
+      "to": 48
     },
     {
       "id": 66,
@@ -18119,8 +18421,8 @@
       "original_id": "13R/31L_174",
       "path": "13R/31L",
       "type": "Runways",
-      "from": 45,
-      "to": 32
+      "from": 50,
+      "to": 36
     },
     {
       "id": 68,
@@ -18358,8 +18660,8 @@
       "original_id": "4L/22R_341",
       "path": "4L/22R",
       "type": "Runways",
-      "from": 32,
-      "to": 39
+      "from": 36,
+      "to": 44
     },
     {
       "id": 69,
@@ -18457,8 +18759,8 @@
       "original_id": "Y3_6",
       "path": "Y3",
       "type": "Taxiways",
-      "from": 37,
-      "to": 33
+      "from": 41,
+      "to": 37
     },
     {
       "id": 70,
@@ -18588,8 +18890,8 @@
       "original_id": "Y_589",
       "path": "Y",
       "type": "Taxiways",
-      "from": 33,
-      "to": 38
+      "from": 37,
+      "to": 42
     },
     {
       "id": 71,
@@ -18671,8 +18973,8 @@
       "original_id": "Y2_79",
       "path": "Y2",
       "type": "Taxiways",
-      "from": 38,
-      "to": 34
+      "from": 42,
+      "to": 38
     },
     {
       "id": 72,
@@ -18814,8 +19116,8 @@
       "original_id": "Y2_57",
       "path": "Y2",
       "type": "Taxiways",
-      "from": 36,
-      "to": 34
+      "from": 40,
+      "to": 38
     },
     {
       "id": 73,
@@ -18893,8 +19195,8 @@
       "original_id": "Y2_68",
       "path": "Y2",
       "type": "Taxiways",
-      "from": 35,
-      "to": 36
+      "from": 39,
+      "to": 40
     },
     {
       "id": 74,
@@ -19212,8 +19514,8 @@
       "original_id": "4R/22L_206",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 43,
-      "to": 35
+      "from": 48,
+      "to": 39
     },
     {
       "id": 75,
@@ -19375,8 +19677,8 @@
       "original_id": "K_44",
       "path": "K",
       "type": "Taxiways",
-      "from": 42,
-      "to": 36
+      "from": 47,
+      "to": 40
     },
     {
       "id": 76,
@@ -19678,8 +19980,8 @@
       "original_id": "SouthRamp_256",
       "path": "SouthRamp",
       "type": "NMA",
-      "from": 37,
-      "to": 44
+      "from": 41,
+      "to": 49
     },
     {
       "id": 77,
@@ -19861,8 +20163,8 @@
       "original_id": "Y_547",
       "path": "Y",
       "type": "Taxiways",
-      "from": 38,
-      "to": 41
+      "from": 42,
+      "to": 46
     },
     {
       "id": 78,
@@ -20288,8 +20590,8 @@
       "original_id": "13L/31R_321",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 49,
-      "to": 39
+      "from": 54,
+      "to": 44
     },
     {
       "id": 79,
@@ -20627,8 +20929,8 @@
       "original_id": "4L/22R_283",
       "path": "4L/22R",
       "type": "Runways",
-      "from": 39,
-      "to": 47
+      "from": 44,
+      "to": 52
     },
     {
       "id": 80,
@@ -21037,8 +21339,8 @@
       "original_id": "N_146",
       "path": "N",
       "type": "Taxiways",
-      "from": 40,
-      "to": 52
+      "from": 45,
+      "to": 57
     },
     {
       "id": 82,
@@ -21572,8 +21874,8 @@
       "original_id": "N2_64",
       "path": "N2",
       "type": "Taxiways",
-      "from": 52,
-      "to": 40
+      "from": 57,
+      "to": 45
     },
     {
       "id": 83,
@@ -22107,8 +22409,8 @@
       "original_id": "NorthRamp_110",
       "path": "NorthRamp",
       "type": "NMA",
-      "from": 52,
-      "to": 40
+      "from": 57,
+      "to": 45
     },
     {
       "id": 84,
@@ -22214,8 +22516,8 @@
       "original_id": "V4_0",
       "path": "V4",
       "type": "Taxiways",
-      "from": 44,
-      "to": 41
+      "from": 49,
+      "to": 46
     },
     {
       "id": 85,
@@ -22249,8 +22551,8 @@
       "original_id": "Y_542",
       "path": "Y",
       "type": "Taxiways",
-      "from": 41,
-      "to": 42
+      "from": 46,
+      "to": 47
     },
     {
       "id": 86,
@@ -22476,8 +22778,8 @@
       "original_id": "Y_489",
       "path": "Y",
       "type": "Taxiways",
-      "from": 42,
-      "to": 46
+      "from": 47,
+      "to": 51
     },
     {
       "id": 87,
@@ -22795,8 +23097,8 @@
       "original_id": "K_127",
       "path": "K",
       "type": "Taxiways",
-      "from": 50,
-      "to": 42
+      "from": 55,
+      "to": 47
     },
     {
       "id": 88,
@@ -22982,8 +23284,8 @@
       "original_id": "F_366",
       "path": "F",
       "type": "Taxiways",
-      "from": 43,
-      "to": 46
+      "from": 48,
+      "to": 51
     },
     {
       "id": 89,
@@ -23089,8 +23391,8 @@
       "original_id": "4R/22L_261",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 45,
-      "to": 43
+      "from": 50,
+      "to": 48
     },
     {
       "id": 90,
@@ -23364,8 +23666,8 @@
       "original_id": "SouthRamp_175",
       "path": "SouthRamp",
       "type": "NMA",
-      "from": 44,
-      "to": 51
+      "from": 49,
+      "to": 56
     },
     {
       "id": 91,
@@ -23570,8 +23872,8 @@
       "original_id": "13R/31L_255",
       "path": "13R/31L",
       "type": "Runways",
-      "from": 48,
-      "to": 45
+      "from": 53,
+      "to": 50
     },
     {
       "id": 93,
@@ -23805,8 +24107,8 @@
       "original_id": "4R/22L_321",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 49,
-      "to": 45
+      "from": 54,
+      "to": 50
     },
     {
       "id": 94,
@@ -24047,8 +24349,8 @@
       "original_id": "F_283",
       "path": "F",
       "type": "Taxiways",
-      "from": 46,
-      "to": 50
+      "from": 51,
+      "to": 55
     },
     {
       "id": 96,
@@ -24165,8 +24467,8 @@
       "original_id": "Y_467",
       "path": "Y",
       "type": "Taxiways",
-      "from": 46,
-      "to": 48
+      "from": 51,
+      "to": 53
     },
     {
       "id": 98,
@@ -24588,8 +24890,8 @@
       "original_id": "H_299",
       "path": "H",
       "type": "Taxiways",
-      "from": 58,
-      "to": 47
+      "from": 63,
+      "to": 52
     },
     {
       "id": 99,
@@ -25203,8 +25505,8 @@
       "original_id": "4L/22R_72",
       "path": "4L/22R",
       "type": "Runways",
-      "from": 47,
-      "to": 62
+      "from": 52,
+      "to": 67
     },
     {
       "id": 100,
@@ -25522,8 +25824,8 @@
       "original_id": "13R/31L_311",
       "path": "13R/31L",
       "type": "Runways",
-      "from": 57,
-      "to": 48
+      "from": 62,
+      "to": 53
     },
     {
       "id": 101,
@@ -25761,8 +26063,8 @@
       "original_id": "Y_412",
       "path": "Y",
       "type": "Taxiways",
-      "from": 48,
-      "to": 54
+      "from": 53,
+      "to": 59
     },
     {
       "id": 102,
@@ -25952,8 +26254,8 @@
       "original_id": "13L/31R_404",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 54,
-      "to": 49
+      "from": 59,
+      "to": 54
     },
     {
       "id": 103,
@@ -26139,8 +26441,8 @@
       "original_id": "4R/22L_349",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 53,
-      "to": 49
+      "from": 58,
+      "to": 54
     },
     {
       "id": 104,
@@ -26242,8 +26544,8 @@
       "original_id": "F_268",
       "path": "F",
       "type": "Taxiways",
-      "from": 50,
-      "to": 55
+      "from": 55,
+      "to": 60
     },
     {
       "id": 105,
@@ -26400,8 +26702,8 @@
       "original_id": "K_147",
       "path": "K",
       "type": "Taxiways",
-      "from": 57,
-      "to": 50
+      "from": 62,
+      "to": 55
     },
     {
       "id": 107,
@@ -26555,8 +26857,8 @@
       "original_id": "SouthRamp_169",
       "path": "SouthRamp",
       "type": "NMA",
-      "from": 51,
-      "to": 56
+      "from": 56,
+      "to": 61
     },
     {
       "id": 108,
@@ -26642,8 +26944,8 @@
       "original_id": "F2_0",
       "path": "F2",
       "type": "Taxiways",
-      "from": 51,
-      "to": 55
+      "from": 56,
+      "to": 60
     },
     {
       "id": 109,
@@ -26921,8 +27223,8 @@
       "original_id": "N_141",
       "path": "N",
       "type": "Taxiways",
-      "from": 52,
-      "to": 65
+      "from": 57,
+      "to": 70
     },
     {
       "id": 110,
@@ -27108,8 +27410,8 @@
       "original_id": "G_307",
       "path": "G",
       "type": "Taxiways",
-      "from": 53,
-      "to": 60
+      "from": 58,
+      "to": 65
     },
     {
       "id": 111,
@@ -27275,8 +27577,8 @@
       "original_id": "4R/22L_402",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 58,
-      "to": 53
+      "from": 63,
+      "to": 58
     },
     {
       "id": 112,
@@ -27705,8 +28007,8 @@
       "original_id": "13L/31R_456",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 66,
-      "to": 54
+      "from": 73,
+      "to": 59
     },
     {
       "id": 114,
@@ -27896,8 +28198,8 @@
       "original_id": "Y_376",
       "path": "Y",
       "type": "Taxiways",
-      "from": 54,
-      "to": 60
+      "from": 59,
+      "to": 65
     },
     {
       "id": 115,
@@ -28047,8 +28349,8 @@
       "original_id": "F_248",
       "path": "F",
       "type": "Taxiways",
-      "from": 55,
-      "to": 59
+      "from": 60,
+      "to": 64
     },
     {
       "id": 116,
@@ -28602,8 +28904,8 @@
       "original_id": "SouthRamp_134",
       "path": "SouthRamp",
       "type": "NMA",
-      "from": 56,
-      "to": 73
+      "from": 61,
+      "to": 80
     },
     {
       "id": 117,
@@ -28693,8 +28995,8 @@
       "original_id": "F3_2",
       "path": "F3",
       "type": "Taxiways",
-      "from": 56,
-      "to": 59
+      "from": 61,
+      "to": 64
     },
     {
       "id": 118,
@@ -28988,8 +29290,8 @@
       "original_id": "13R/31L_352",
       "path": "13R/31L",
       "type": "Runways",
-      "from": 57,
-      "to": null
+      "from": 72,
+      "to": 62
     },
     {
       "id": 119,
@@ -29191,8 +29493,8 @@
       "original_id": "K_167",
       "path": "K",
       "type": "Taxiways",
-      "from": 64,
-      "to": 57
+      "from": 69,
+      "to": 62
     },
     {
       "id": 120,
@@ -29378,8 +29680,8 @@
       "original_id": "H_325",
       "path": "H",
       "type": "Taxiways",
-      "from": 63,
-      "to": 58
+      "from": 68,
+      "to": 63
     },
     {
       "id": 121,
@@ -29769,8 +30071,8 @@
       "original_id": "4R/22L_485",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 67,
-      "to": 58
+      "from": 74,
+      "to": 63
     },
     {
       "id": 122,
@@ -29916,8 +30218,8 @@
       "original_id": "F_212",
       "path": "F",
       "type": "Taxiways",
-      "from": 59,
-      "to": 61
+      "from": 64,
+      "to": 66
     },
     {
       "id": 123,
@@ -30283,8 +30585,8 @@
       "original_id": "G_256",
       "path": "G",
       "type": "Taxiways",
-      "from": 60,
-      "to": 74
+      "from": 65,
+      "to": 81
     },
     {
       "id": 124,
@@ -30446,8 +30748,8 @@
       "original_id": "Y_331",
       "path": "Y",
       "type": "Taxiways",
-      "from": 60,
-      "to": 63
+      "from": 65,
+      "to": 68
     },
     {
       "id": 125,
@@ -30704,8 +31006,8 @@
       "original_id": "F_127",
       "path": "F",
       "type": "Taxiways",
-      "from": 61,
-      "to": 73
+      "from": 66,
+      "to": 80
     },
     {
       "id": 127,
@@ -30822,8 +31124,8 @@
       "original_id": "F4_21",
       "path": "F4",
       "type": "Taxiways",
-      "from": 61,
-      "to": null
+      "from": 71,
+      "to": 66
     },
     {
       "id": 129,
@@ -31325,8 +31627,8 @@
       "original_id": "P_265",
       "path": "P",
       "type": "Taxiways",
-      "from": 62,
-      "to": 67
+      "from": 67,
+      "to": 74
     },
     {
       "id": 130,
@@ -31400,8 +31702,8 @@
       "original_id": "4L/22R_59",
       "path": "4L/22R",
       "type": "Runways",
-      "from": 62,
-      "to": 65
+      "from": 67,
+      "to": 70
     },
     {
       "id": 131,
@@ -31607,8 +31909,8 @@
       "original_id": "H_377",
       "path": "H",
       "type": "Taxiways",
-      "from": 72,
-      "to": 63
+      "from": 79,
+      "to": 68
     },
     {
       "id": 132,
@@ -31810,8 +32112,8 @@
       "original_id": "Y_284",
       "path": "Y",
       "type": "Taxiways",
-      "from": 63,
-      "to": 69
+      "from": 68,
+      "to": 76
     },
     {
       "id": 133,
@@ -31945,8 +32247,8 @@
       "original_id": "K_248",
       "path": "K",
       "type": "Taxiways",
-      "from": 75,
-      "to": 64
+      "from": 82,
+      "to": 69
     },
     {
       "id": 134,
@@ -32048,8 +32350,8 @@
       "original_id": "K_228",
       "path": "K",
       "type": "Taxiways",
-      "from": 66,
-      "to": 64
+      "from": 73,
+      "to": 69
     },
     {
       "id": 135,
@@ -32327,8 +32629,8 @@
       "original_id": "N_47",
       "path": "N",
       "type": "Taxiways",
-      "from": 65,
-      "to": 79
+      "from": 70,
+      "to": 87
     },
     {
       "id": 136,
@@ -32562,8 +32864,8 @@
       "original_id": "4L/22R_2",
       "path": "4L/22R",
       "type": "Runways",
-      "from": 65,
-      "to": 76
+      "from": 70,
+      "to": 83
     },
     {
       "id": 137,
@@ -32697,8 +32999,8 @@
       "original_id": "13L/31R_535",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 75,
-      "to": 66
+      "from": 82,
+      "to": 73
     },
     {
       "id": 138,
@@ -32900,8 +33202,8 @@
       "original_id": "P_179",
       "path": "P",
       "type": "Taxiways",
-      "from": 67,
-      "to": 68
+      "from": 74,
+      "to": 75
     },
     {
       "id": 139,
@@ -33235,8 +33537,8 @@
       "original_id": "4R/22L_553",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 82,
-      "to": 67
+      "from": 90,
+      "to": 74
     },
     {
       "id": 140,
@@ -33314,8 +33616,8 @@
       "original_id": "P_121",
       "path": "P",
       "type": "Taxiways",
-      "from": 68,
-      "to": 69
+      "from": 75,
+      "to": 76
     },
     {
       "id": 141,
@@ -33765,8 +34067,8 @@
       "original_id": "Y_184",
       "path": "Y",
       "type": "Taxiways",
-      "from": 68,
-      "to": 85
+      "from": 75,
+      "to": 93
     },
     {
       "id": 142,
@@ -33844,8 +34146,8 @@
       "original_id": "P_119",
       "path": "P",
       "type": "Taxiways",
-      "from": 69,
-      "to": 70
+      "from": 76,
+      "to": 77
     },
     {
       "id": 143,
@@ -34015,8 +34317,8 @@
       "original_id": "T_65",
       "path": "T",
       "type": "Taxiways",
-      "from": 70,
-      "to": 77
+      "from": 77,
+      "to": 85
     },
     {
       "id": 144,
@@ -34162,8 +34464,8 @@
       "original_id": "P_103",
       "path": "P",
       "type": "Taxiways",
-      "from": 70,
-      "to": 71
+      "from": 77,
+      "to": 78
     },
     {
       "id": 145,
@@ -34245,8 +34547,8 @@
       "original_id": "P_70",
       "path": "P",
       "type": "Taxiways",
-      "from": 71,
-      "to": 72
+      "from": 78,
+      "to": 79
     },
     {
       "id": 146,
@@ -34372,8 +34674,8 @@
       "original_id": "T_18",
       "path": "T",
       "type": "Taxiways",
-      "from": 77,
-      "to": 71
+      "from": 85,
+      "to": 78
     },
     {
       "id": 147,
@@ -34899,8 +35201,8 @@
       "original_id": "H_416",
       "path": "H",
       "type": "Taxiways",
-      "from": 89,
-      "to": 72
+      "from": 97,
+      "to": 79
     },
     {
       "id": 148,
@@ -35130,8 +35432,8 @@
       "original_id": "P_53",
       "path": "P",
       "type": "Taxiways",
-      "from": 72,
-      "to": 74
+      "from": 79,
+      "to": 81
     },
     {
       "id": 149,
@@ -35645,8 +35947,8 @@
       "original_id": "F_101",
       "path": "F",
       "type": "Taxiways",
-      "from": 73,
-      "to": 98
+      "from": 80,
+      "to": 106
     },
     {
       "id": 150,
@@ -35996,8 +36298,8 @@
       "original_id": "G_171",
       "path": "G",
       "type": "Taxiways",
-      "from": 74,
-      "to": 84
+      "from": 81,
+      "to": 92
     },
     {
       "id": 151,
@@ -36243,8 +36545,8 @@
       "original_id": "K_290",
       "path": "K",
       "type": "Taxiways",
-      "from": 84,
-      "to": 75
+      "from": 92,
+      "to": 82
     },
     {
       "id": 152,
@@ -36770,8 +37072,8 @@
       "original_id": "13L/31R_626",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 91,
-      "to": 75
+      "from": 99,
+      "to": 82
     },
     {
       "id": 153,
@@ -36929,8 +37231,8 @@
       "original_id": "Q_0",
       "path": "Q",
       "type": "Taxiways",
-      "from": 78,
-      "to": 76
+      "from": 86,
+      "to": 83
     },
     {
       "id": 154,
@@ -36952,8 +37254,8 @@
       "original_id": "4L/22R_0",
       "path": "4L/22R",
       "type": "Runways",
-      "from": 76,
-      "to": 76
+      "from": 83,
+      "to": 84
     },
     {
       "id": 155,
@@ -37099,8 +37401,8 @@
       "original_id": "T_86",
       "path": "T",
       "type": "Taxiways",
-      "from": 80,
-      "to": 77
+      "from": 88,
+      "to": 85
     },
     {
       "id": 156,
@@ -37202,8 +37504,8 @@
       "original_id": "Q_36",
       "path": "Q",
       "type": "Taxiways",
-      "from": 81,
-      "to": 78
+      "from": 89,
+      "to": 86
     },
     {
       "id": 157,
@@ -37285,8 +37587,8 @@
       "original_id": "N_418",
       "path": "N",
       "type": "Taxiways",
-      "from": 78,
-      "to": 79
+      "from": 86,
+      "to": 87
     },
     {
       "id": 158,
@@ -37764,8 +38066,8 @@
       "original_id": "R_102",
       "path": "R",
       "type": "Taxiways",
-      "from": 78,
-      "to": 101
+      "from": 86,
+      "to": 110
     },
     {
       "id": 159,
@@ -37835,8 +38137,8 @@
       "original_id": "N_3",
       "path": "N",
       "type": "Taxiways",
-      "from": 79,
-      "to": 81
+      "from": 87,
+      "to": 89
     },
     {
       "id": 160,
@@ -37926,8 +38228,8 @@
       "original_id": "T_100",
       "path": "T",
       "type": "Taxiways",
-      "from": 83,
-      "to": 80
+      "from": 91,
+      "to": 88
     },
     {
       "id": 161,
@@ -38557,8 +38859,8 @@
       "original_id": "T1_26",
       "path": "T1",
       "type": "Taxiways",
-      "from": 80,
-      "to": null
+      "from": 88,
+      "to": 115
     },
     {
       "id": 162,
@@ -38744,8 +39046,8 @@
       "original_id": "Q_62",
       "path": "Q",
       "type": "Taxiways",
-      "from": 87,
-      "to": 81
+      "from": 95,
+      "to": 89
     },
     {
       "id": 163,
@@ -38847,8 +39149,8 @@
       "original_id": "Y5_21",
       "path": "Y5",
       "type": "Taxiways",
-      "from": 86,
-      "to": 82
+      "from": 94,
+      "to": 90
     },
     {
       "id": 164,
@@ -39050,8 +39352,8 @@
       "original_id": "4R/22L_606",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 87,
-      "to": 82
+      "from": 95,
+      "to": 90
     },
     {
       "id": 165,
@@ -39317,8 +39619,8 @@
       "original_id": "T_163",
       "path": "T",
       "type": "Taxiways",
-      "from": 93,
-      "to": 83
+      "from": 101,
+      "to": 91
     },
     {
       "id": 166,
@@ -39928,8 +40230,8 @@
       "original_id": "T2_0",
       "path": "T2",
       "type": "Taxiways",
-      "from": 83,
-      "to": null
+      "from": 91,
+      "to": 114
     },
     {
       "id": 167,
@@ -40075,8 +40377,8 @@
       "original_id": "K_341",
       "path": "K",
       "type": "Taxiways",
-      "from": 90,
-      "to": 84
+      "from": 98,
+      "to": 92
     },
     {
       "id": 168,
@@ -40362,8 +40664,8 @@
       "original_id": "G_102",
       "path": "G",
       "type": "Taxiways",
-      "from": 84,
-      "to": 95
+      "from": 92,
+      "to": 103
     },
     {
       "id": 169,
@@ -40461,8 +40763,8 @@
       "original_id": "Y5_37",
       "path": "Y5",
       "type": "Taxiways",
-      "from": 85,
-      "to": 86
+      "from": 93,
+      "to": 94
     },
     {
       "id": 170,
@@ -40568,8 +40870,8 @@
       "original_id": "Y_136",
       "path": "Y",
       "type": "Taxiways",
-      "from": 85,
-      "to": 88
+      "from": 93,
+      "to": 96
     },
     {
       "id": 171,
@@ -40643,8 +40945,8 @@
       "original_id": "Y5_36",
       "path": "Y5",
       "type": "Taxiways",
-      "from": 86,
-      "to": 88
+      "from": 94,
+      "to": 96
     },
     {
       "id": 172,
@@ -40794,8 +41096,8 @@
       "original_id": "Q_110",
       "path": "Q",
       "type": "Taxiways",
-      "from": 94,
-      "to": 87
+      "from": 102,
+      "to": 95
     },
     {
       "id": 173,
@@ -40965,8 +41267,8 @@
       "original_id": "4R/22L_653",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 96,
-      "to": 87
+      "from": 104,
+      "to": 95
     },
     {
       "id": 174,
@@ -41100,8 +41402,8 @@
       "original_id": "Y_116",
       "path": "Y",
       "type": "Taxiways",
-      "from": 88,
-      "to": 94
+      "from": 96,
+      "to": 102
     },
     {
       "id": 175,
@@ -41167,8 +41469,8 @@
       "original_id": "H_544",
       "path": "H",
       "type": "Taxiways",
-      "from": 92,
-      "to": 89
+      "from": 100,
+      "to": 97
     },
     {
       "id": 176,
@@ -41322,8 +41624,8 @@
       "original_id": "T_182",
       "path": "T",
       "type": "Taxiways",
-      "from": 89,
-      "to": 93
+      "from": 97,
+      "to": 101
     },
     {
       "id": 177,
@@ -41545,8 +41847,8 @@
       "original_id": "K_372",
       "path": "K",
       "type": "Taxiways",
-      "from": 95,
-      "to": 90
+      "from": 103,
+      "to": 98
     },
     {
       "id": 178,
@@ -41648,8 +41950,8 @@
       "original_id": "K_371",
       "path": "K",
       "type": "Taxiways",
-      "from": 92,
-      "to": 90
+      "from": 100,
+      "to": 98
     },
     {
       "id": 179,
@@ -41767,8 +42069,8 @@
       "original_id": "13L/31R_695",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 98,
-      "to": 91
+      "from": 106,
+      "to": 99
     },
     {
       "id": 180,
@@ -41954,8 +42256,8 @@
       "original_id": "E2_33",
       "path": "E2",
       "type": "Taxiways",
-      "from": 100,
-      "to": 91
+      "from": 109,
+      "to": 99
     },
     {
       "id": 181,
@@ -42305,8 +42607,8 @@
       "original_id": "H_563",
       "path": "H",
       "type": "Taxiways",
-      "from": 92,
-      "to": 99
+      "from": 100,
+      "to": 108
     },
     {
       "id": 182,
@@ -42364,8 +42666,8 @@
       "original_id": "T_218",
       "path": "T",
       "type": "Taxiways",
-      "from": 97,
-      "to": 93
+      "from": 105,
+      "to": 101
     },
     {
       "id": 183,
@@ -42531,8 +42833,8 @@
       "original_id": "Y_68",
       "path": "Y",
       "type": "Taxiways",
-      "from": 94,
-      "to": 102
+      "from": 102,
+      "to": 111
     },
     {
       "id": 184,
@@ -42618,8 +42920,8 @@
       "original_id": "G_34",
       "path": "G",
       "type": "Taxiways",
-      "from": 95,
-      "to": 99
+      "from": 103,
+      "to": 108
     },
     {
       "id": 185,
@@ -42769,8 +43071,8 @@
       "original_id": "Y6_0",
       "path": "Y6",
       "type": "Taxiways",
-      "from": 102,
-      "to": 96
+      "from": 111,
+      "to": 104
     },
     {
       "id": 186,
@@ -42920,8 +43222,8 @@
       "original_id": "4R/22L_675",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 101,
-      "to": 96
+      "from": 110,
+      "to": 104
     },
     {
       "id": 187,
@@ -43435,8 +43737,8 @@
       "original_id": "T_228",
       "path": "T",
       "type": "Taxiways",
-      "from": 97,
-      "to": 103
+      "from": 105,
+      "to": 112
     },
     {
       "id": 188,
@@ -43874,8 +44176,8 @@
       "original_id": "T3_105",
       "path": "T3",
       "type": "Taxiways",
-      "from": 97,
-      "to": null
+      "from": 116,
+      "to": 105
     },
     {
       "id": 189,
@@ -43921,8 +44223,8 @@
       "original_id": "13L/31R_706",
       "path": "13L/31R",
       "type": "Runways",
-      "from": 98,
-      "to": 98
+      "from": 107,
+      "to": 106
     },
     {
       "id": 190,
@@ -44124,8 +44426,8 @@
       "original_id": "E3_46",
       "path": "E3",
       "type": "Taxiways",
-      "from": 103,
-      "to": 98
+      "from": 112,
+      "to": 106
     },
     {
       "id": 191,
@@ -44147,8 +44449,8 @@
       "original_id": "G_16",
       "path": "G",
       "type": "Taxiways",
-      "from": 99,
-      "to": 100
+      "from": 108,
+      "to": 109
     },
     {
       "id": 192,
@@ -44222,8 +44524,8 @@
       "original_id": "G_14",
       "path": "G",
       "type": "Taxiways",
-      "from": 100,
-      "to": 103
+      "from": 109,
+      "to": 112
     },
     {
       "id": 193,
@@ -44493,8 +44795,8 @@
       "original_id": "Y7_21",
       "path": "Y7",
       "type": "Taxiways",
-      "from": 102,
-      "to": 101
+      "from": 111,
+      "to": 110
     },
     {
       "id": 194,
@@ -44532,8 +44834,8 @@
       "original_id": "4R/22L_702",
       "path": "4R/22L",
       "type": "Runways",
-      "from": 101,
-      "to": 101
+      "from": 113,
+      "to": 110
     }
   ],
   "gates": [
