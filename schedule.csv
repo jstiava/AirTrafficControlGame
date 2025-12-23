@@ -1,0 +1,394 @@
+Type,Company,Number,Airport,Date,Scheduled,Updated,Gate
+Departure,Southwest Airlines,3697,Denver Intl (DEN),12/19/2025,8:00 AM,11:56 AM,B11
+Arrival,Southwest Airlines,1752,Baltimore-Washington Intl (BWI),12/18/2025,8:50 AM,8:47 AM,B1
+Arrival,Delta Air Lines,4858,Detroit Metropolitan (DTW),12/18/2025,8:54 AM,8:48 AM,A5
+Departure,Southwest Airlines,3793,Tampa Intl (TPA),12/18/2025,9:00 AM,9:05 AM,B19
+Departure,Southwest Airlines,984,Philadelphia Intl (PHL),12/18/2025,9:05 AM,9:09 AM,B17
+Departure,Southwest Airlines,3222,Lambert / St Louis Intl (STL),12/18/2025,9:05 AM,9:16 AM,B9
+Departure,Southwest Airlines,339,Ronald Reagan / Washington National (DCA),12/18/2025,9:15 AM,9:36 AM,A16
+Arrival,Delta Air Lines,3543,Minneapolis St Paul Intl (MSP),12/18/2025,9:19 AM,9:32 AM,A7
+Arrival,Allegiant Air,898,Charlotte County (PGD),12/18/2025,9:23 AM,9:02 AM,A12
+Departure,Southwest Airlines,2323,Los Angeles Intl (LAX),12/18/2025,9:25 AM,9:34 AM,B15
+Departure,Southwest Airlines,3635,Harry Reid Intl (LAS),12/18/2025,9:25 AM,9:45 AM,A4A
+Departure,Southwest Airlines,3692,Dallas / Love Field (DAL),12/18/2025,9:25 AM,9:31 AM,B24
+Departure,Southwest Airlines,2049,Phoenix Sky Harbor Intl (PHX),12/18/2025,9:25 AM,9:40 AM,B22
+Departure,Southwest Airlines,1340,Louisville Intl (SDF),12/18/2025,9:30 AM,9:41 AM,B12
+Departure,Southwest Airlines,1989,John Glenn Columbus Intl (CMH),12/18/2025,9:30 AM,9:37 AM,B2
+Departure,Southwest Airlines,2825,Gerald R. Ford Intl (GRR),12/18/2025,9:30 AM,9:48 AM,A15
+Departure,Southwest Airlines,3528,Charlotte Douglas Intl (CLT),12/18/2025,9:30 AM,9:50 AM,B14
+Departure,Southwest Airlines,3736,Miami Intl (MIA),12/18/2025,9:30 AM,9:38 AM,A18
+Departure,Southwest Airlines,4498,Buffalo Niagara Intl (BUF),12/18/2025,9:30 AM,9:42 AM,B25
+Departure,Delta Air Lines,4858,Detroit Metropolitan (DTW),12/18/2025,9:34 AM,9:33 AM,A5
+Arrival,Southwest Airlines,1522,Dallas / Love Field (DAL),12/18/2025,9:35 AM,9:13 AM,A17
+Arrival,Southwest Airlines,139,Phoenix Sky Harbor Intl (PHX),12/18/2025,9:35 AM,9:30 AM,A9
+Departure,Southwest Airlines,1743,Baltimore-Washington Intl (BWI),12/18/2025,9:35 AM,9:31 AM,B1
+Departure,Southwest Airlines,3678,Logan Intl (BOS),12/18/2025,9:35 AM,9:28 AM,B26
+Departure,Southwest Airlines,3769,Richmond Intl (RIC),12/18/2025,9:35 AM,9:53 AM,A11
+Arrival,Volaris,5978,Don Miguel Hidalgo Y Costilla Intl (GDL),12/18/2025,9:40 AM,9:29 AM,
+Departure,Southwest Airlines,2155,Pittsburgh Intl (PIT),12/18/2025,9:40 AM,9:49 AM,A19
+Departure,Southwest Airlines,3454,Cleveland Hopkins Intl (CLE),12/18/2025,9:40 AM,9:52 AM,B21
+Departure,Southwest Airlines,3702,Detroit Metropolitan (DTW),12/18/2025,9:40 AM,9:51 AM,B11
+Departure,Southwest Airlines,1108,Raleigh-Durham Intl (RDU),12/18/2025,9:45 AM,9:39 AM,B23
+Arrival,Delta Air Lines,1063,Hartsfield Atlanta Intl (ATL),12/18/2025,9:54 AM,9:32 AM,A5
+Arrival,Southwest Airlines,1190,Nashville Intl (BNA),12/18/2025,9:55 AM,9:20 AM,B10
+Arrival,Southwest Airlines,3721,Lambert / St Louis Intl (STL),12/18/2025,9:55 AM,9:47 AM,B7
+Departure,Southwest Airlines,419,Hartsfield Atlanta Intl (ATL),12/18/2025,9:55 AM,9:53 AM,B16
+Departure,Delta Air Lines,3778,Minneapolis St Paul Intl (MSP),12/18/2025,9:59 AM,10:00 AM,A7
+Arrival,Porter Airlines,2387,City Centre (YTZ),12/18/2025,10:05 AM,9:53 AM,
+Departure,Allegiant Air,919,Charlotte County (PGD),12/18/2025,10:13 AM,10:13 AM,A12
+Arrival,Southwest Airlines,2377,Ronald Reagan / Washington National (DCA),12/18/2025,10:15 AM,10:00 AM,B17
+Departure,Southwest Airlines,139,Indianapolis Intl (IND),12/18/2025,10:15 AM,10:15 AM,A9
+Arrival,Southwest Airlines,4312,LaGuardia (LGA),12/18/2025,10:25 AM,10:32 AM,B20
+Arrival,Southwest Airlines,3443,LaGuardia (LGA),12/19/2025,10:25 AM,10:25 AM,B7
+Departure,Southwest Airlines,1190,Denver Intl (DEN),12/18/2025,10:30 AM,10:30 AM,B5
+Departure,Southwest Airlines,1603,LaGuardia (LGA),12/19/2025,10:35 AM,12:10 PM,A11
+Departure,Southwest Airlines,220,Cancun Intl (CUN),12/18/2025,10:40 AM,10:40 AM,A17
+Departure,Delta Air Lines,1063,Hartsfield Atlanta Intl (ATL),12/18/2025,10:49 AM,10:39 AM,A5
+Departure,Southwest Airlines,1190,Denver Intl (DEN),12/19/2025,10:50 AM,1:43 PM,B9
+Departure,Southwest Airlines,1603,LaGuardia (LGA),12/18/2025,10:55 AM,10:55 AM,B7
+Arrival,Southwest Airlines,1753,Baltimore-Washington Intl (BWI),12/18/2025,11:00 AM,10:40 AM,B23
+Arrival,Southwest Airlines,2015,Salt Lake City Intl (SLC),12/18/2025,11:00 AM,10:55 AM,B12
+Departure,Porter Airlines,2388,City Centre (YTZ),12/18/2025,11:00 AM,11:00 AM,
+Departure,Southwest Airlines,1124,Nashville Intl (BNA),12/18/2025,11:00 AM,11:00 AM,B10
+Departure,Volaris,5983,Jesus Teran Intl (AGU),12/18/2025,11:00 AM,11:00 AM,A1
+Departure,Southwest Airlines,2377,Colorado Springs (COS),12/19/2025,11:00 AM,12:55 PM,B5
+Arrival,Southwest Airlines,3306,Denver Intl (DEN),12/18/2025,11:05 AM,10:41 AM,B2
+Departure,Southwest Airlines,3123,Jacksonville Intl (JAX),12/18/2025,11:05 AM,11:21 AM,B20
+Departure,Southwest Airlines,3443,Albuquerque Intl Sunport (ABQ),12/19/2025,11:05 AM,3:38 PM,B7
+Arrival,Delta Air Lines,3778,Minneapolis St Paul Intl (MSP),12/20/2025,11:06 AM,12:41 PM,A10
+Departure,Southwest Airlines,2910,Eppley Airfield (OMA),12/18/2025,11:10 AM,11:10 AM,B17
+Arrival,Southwest Airlines,879,Tucson Intl (TUS),12/18/2025,11:15 AM,11:15 AM,B9
+Departure,Southwest Airlines,1550,San Diego Intl (SAN),12/18/2025,11:15 AM,11:15 AM,B3
+Departure,Southwest Airlines,3204,Minneapolis St Paul Intl (MSP),12/18/2025,11:15 AM,12:43 PM,A4B
+Departure,Southwest Airlines,3252,Bob Hope (BUR),12/19/2025,11:15 AM,12:33 PM,A17
+Arrival,Southwest Airlines,4346,Tampa Intl (TPA),12/18/2025,11:25 AM,11:09 AM,B22
+Arrival,Southwest Airlines,2609,Minneapolis St Paul Intl (MSP),12/19/2025,11:25 AM,11:38 AM,A17
+Arrival,Volaris,7830,General Leobardo C Ruiz Intl (ZCL),12/18/2025,11:27 AM,12:48 PM,
+Arrival,Volaris,7830,General Leobardo C Ruiz Intl (ZCL),12/20/2025,11:27 AM,1:46 PM,
+Arrival,Southwest Airlines,2363,Oakland Intl (OAK),12/18/2025,11:30 AM,11:18 AM,B25
+Departure,Southwest Airlines,4346,Sacramento Intl (SMF),12/19/2025,11:30 AM,12:15 PM,A15
+Departure,Southwest Airlines,887,Birmingham Intl (BHM),12/20/2025,11:30 AM,1:57 PM,B15
+Arrival,Southwest Airlines,1699,Hartsfield Atlanta Intl (ATL),12/18/2025,11:35 AM,11:15 AM,B26
+Arrival,Southwest Airlines,3695,Minneapolis St Paul Intl (MSP),12/18/2025,11:35 AM,11:12 AM,B15
+Departure,Southwest Airlines,2952,Orlando Intl (MCO),12/18/2025,11:35 AM,11:35 AM,B23
+Departure,Southwest Airlines,644,San Diego Intl (SAN),12/19/2025,11:35 AM,12:28 PM,B7
+Departure,Southwest Airlines,2015,John Glenn Columbus Intl (CMH),12/18/2025,11:40 AM,11:47 AM,B12
+Departure,Southwest Airlines,4313,Minneapolis St Paul Intl (MSP),12/19/2025,11:40 AM,12:11 PM,B2
+Departure,Southwest Airlines,3306,Philadelphia Intl (PHL),12/18/2025,11:45 AM,11:45 AM,B2
+Departure,Southwest Airlines,4130,Nashville Intl (BNA),12/19/2025,11:45 AM,12:01 PM,B17
+Departure,Delta Air Lines,3778,Minneapolis St Paul Intl (MSP),12/20/2025,11:48 AM,1:40 PM,A10
+Departure,Southwest Airlines,2922,William P Hobby (HOU),12/20/2025,11:50 AM,1:03 PM,A11
+Arrival,Southwest Airlines,2485,Sacramento Intl (SMF),12/18/2025,11:55 AM,11:37 AM,B21
+Arrival,Southwest Airlines,4535,Orlando Intl (MCO),12/18/2025,11:55 AM,11:35 AM,B24
+Departure,Southwest Airlines,879,Bradley Intl (BDL),12/18/2025,11:55 AM,11:58 AM,B9
+Arrival,Delta Air Lines,2417,Hartsfield Atlanta Intl (ATL),12/19/2025,11:55 AM,12:05 PM,A5
+Arrival,Delta Air Lines,2417,Hartsfield Atlanta Intl (ATL),12/18/2025,11:58 AM,12:02 PM,A5
+Arrival,Southwest Airlines,1777,Los Angeles Intl (LAX),12/19/2025,12:00 PM,11:39 AM,A19
+Departure,Southwest Airlines,3771,Southwest Florida Intl (RSW),12/19/2025,12:00 PM,12:21 PM,A16
+Departure,Southwest Airlines,4864,William P Hobby (HOU),12/19/2025,12:00 PM,4:39 PM,B10
+Departure,Southwest Airlines,2304,Dallas / Love Field (DAL),12/18/2025,12:05 PM,12:05 PM,B22
+Departure,Southwest Airlines,1699,Kansas City Intl (MCI),12/19/2025,12:05 PM,12:32 PM,B15
+Departure,Southwest Airlines,1699,Kansas City Intl (MCI),12/18/2025,12:10 PM,12:10 PM,B26
+Departure,Southwest Airlines,3695,Ronald Reagan / Washington National (DCA),12/18/2025,12:10 PM,12:10 PM,B15
+Departure,Southwest Airlines,3808,Ronald Reagan / Washington National (DCA),12/19/2025,12:10 PM,12:19 PM,B1
+Arrival,Southwest Airlines,1939,San Francisco Intl (SFO),12/18/2025,12:15 PM,12:06 PM,A15
+Arrival,Southwest Airlines,3206,Harry Reid Intl (LAS),12/19/2025,12:15 PM,12:16 PM,B19
+Arrival,Southwest Airlines,3722,Phoenix Sky Harbor Intl (PHX),12/19/2025,12:15 PM,12:05 PM,B3
+Departure,Southwest Airlines,4127,Lambert / St Louis Intl (STL),12/20/2025,12:15 PM,12:41 PM,A15
+Departure,Southwest Airlines,149,Phoenix Sky Harbor Intl (PHX),12/18/2025,12:20 PM,12:20 PM,B25
+Departure,Southwest Airlines,3808,Ronald Reagan / Washington National (DCA),12/20/2025,12:20 PM,1:27 PM,B1
+Arrival,Southwest Airlines,4016,Portland Intl (PDX),12/18/2025,12:25 PM,12:01 PM,A19
+Arrival,Southwest Airlines,3690,Savannah Intl (SAV),12/19/2025,12:25 PM,12:14 PM,B11
+Departure,Southwest Airlines,787,Minneapolis St Paul Intl (MSP),12/20/2025,12:25 PM,12:44 PM,B15
+Departure,Southwest Airlines,2120,Baltimore-Washington Intl (BWI),12/20/2025,12:25 PM,12:42 PM,B9
+Arrival,Volaris,7702,Guanajuato Intl (BJX),12/18/2025,12:27 PM,12:14 PM,
+Arrival,Volaris,7702,Guanajuato Intl (BJX),12/20/2025,12:27 PM,2:20 PM,
+Arrival,Southwest Airlines,3722,Phoenix Sky Harbor Intl (PHX),12/18/2025,12:30 PM,12:30 PM,B3
+Arrival,Southwest Airlines,1100,Seattle Tacoma Intl (SEA),12/18/2025,12:30 PM,11:58 AM,A11
+Arrival,Delta Air Lines,5298,Detroit Metropolitan (DTW),12/18/2025,12:34 PM,12:34 PM,A7
+Arrival,Delta Air Lines,5298,Detroit Metropolitan (DTW),12/19/2025,12:34 PM,12:40 PM,A7
+Arrival,Southwest Airlines,265,Dallas / Love Field (DAL),12/18/2025,12:35 PM,12:35 PM,B20
+Arrival,Southwest Airlines,2529,Denver Intl (DEN),12/18/2025,12:35 PM,12:07 PM,B1
+Arrival,Southwest Airlines,2712,Detroit Metropolitan (DTW),12/18/2025,12:35 PM,12:12 PM,A16
+Arrival,Southwest Airlines,3058,Ontario Intl (ONT),12/18/2025,12:35 PM,12:25 PM,B19
+Departure,Southwest Airlines,745,Harry Reid Intl (LAS),12/18/2025,12:35 PM,12:35 PM,B21
+Departure,Southwest Airlines,4535,Denver Intl (DEN),12/18/2025,12:35 PM,12:35 PM,B24
+Arrival,Southwest Airlines,3768,San Diego Intl (SAN),12/18/2025,12:40 PM,12:53 PM,A9
+Arrival,Southwest Airlines,1484,Austin-Bergstrom Intl (AUS),12/18/2025,12:40 PM,12:12 PM,B7
+Arrival,Southwest Airlines,3730,San Jose Intl (SJC),12/18/2025,12:40 PM,12:33 PM,B2
+Arrival,Southwest Airlines,1777,Los Angeles Intl (LAX),12/18/2025,12:40 PM,12:39 PM,B14
+Arrival,Southwest Airlines,4198,John Glenn Columbus Intl (CMH),12/19/2025,12:40 PM,12:54 PM,B2
+Arrival,Southwest Airlines,2153,San Diego Intl (SAN),12/19/2025,12:40 PM,12:20 PM,A18
+Arrival,Southwest Airlines,2120,Seattle Tacoma Intl (SEA),12/19/2025,12:40 PM,12:23 PM,A9
+Departure,Southwest Airlines,2840,Seattle Tacoma Intl (SEA),12/19/2025,12:40 PM,12:40 PM,A19
+Departure,Southwest Airlines,3182,Harry Reid Intl (LAS),12/20/2025,12:40 PM,1:25 PM,A18
+Departure,Volaris,7831,General Leobardo C Ruiz Intl (ZCL),12/18/2025,12:42 PM,1:30 PM,A2
+Departure,Volaris,7831,General Leobardo C Ruiz Intl (ZCL),12/20/2025,12:42 PM,3:25 PM,A2
+Arrival,Southwest Airlines,209,Louis Armstrong New Orleans Intl (MSY),12/18/2025,12:45 PM,12:17 PM,A17
+Arrival,Southwest Airlines,215,Ronald Reagan / Washington National (DCA),12/18/2025,12:45 PM,12:45 PM,B11
+Arrival,Southwest Airlines,4198,John Glenn Columbus Intl (CMH),12/18/2025,12:45 PM,12:45 PM,B16
+Departure,Delta Air Lines,2417,Hartsfield Atlanta Intl (ATL),12/18/2025,12:45 PM,12:45 PM,A5
+Arrival,Southwest Airlines,1475,San Francisco Intl (SFO),12/19/2025,12:45 PM,12:54 PM,B7
+Departure,Southwest Airlines,2497,Cleveland Hopkins Intl (CLE),12/20/2025,12:45 PM,1:04 PM,B5
+Departure,Delta Air Lines,2417,Hartsfield Atlanta Intl (ATL),12/19/2025,12:50 PM,12:58 PM,A5
+Departure,Southwest Airlines,3771,Southwest Florida Intl (RSW),12/20/2025,12:50 PM,1:26 PM,B2
+Arrival,Southwest Airlines,3157,Ft Lauderdale / Hollywood Intl (FLL),12/20/2025,12:50 PM,1:08 PM,A17
+Departure,Southwest Airlines,1939,Hartsfield Atlanta Intl (ATL),12/18/2025,12:55 PM,1:00 PM,A15
+Arrival,Southwest Airlines,1668,Detroit Metropolitan (DTW),12/19/2025,12:55 PM,1:25 PM,B15
+Departure,Southwest Airlines,4535,Denver Intl (DEN),12/19/2025,12:55 PM,3:01 PM,B19
+Departure,Southwest Airlines,3722,LaGuardia (LGA),12/19/2025,12:55 PM,1:54 PM,B3
+Arrival,Southwest Airlines,215,Ronald Reagan / Washington National (DCA),12/19/2025,1:00 PM,1:16 PM,A11
+Arrival,Frontier Airlines,1413,Newark Liberty Intl (EWR),12/18/2025,1:01 PM,1:07 PM,C2
+Arrival,Volaris,7770,Francisco J Mujica Intl (MLM),12/18/2025,1:04 PM,12:52 PM,
+Arrival,Volaris,7770,Francisco J Mujica Intl (MLM),12/19/2025,1:04 PM,1:30 PM,
+Arrival,Volaris,7770,Francisco J Mujica Intl (MLM),12/20/2025,1:04 PM,1:40 PM,
+Arrival,Southwest Airlines,1094,Harry Reid Intl (LAS),12/18/2025,1:05 PM,1:14 PM,B17
+Arrival,Southwest Airlines,1561,Cincinnati Northern Kentucky Intl (CVG),12/20/2025,1:05 PM,1:03 PM,B11
+Arrival,Delta Air Lines,3795,Minneapolis St Paul Intl (MSP),12/18/2025,1:10 PM,12:49 PM,A5
+Arrival,Southwest Airlines,3446,LaGuardia (LGA),12/18/2025,1:10 PM,1:10 PM,B12
+Departure,Southwest Airlines,488,Tucson Intl (TUS),12/18/2025,1:10 PM,1:10 PM,A19
+Arrival,Delta Air Lines,3795,Minneapolis St Paul Intl (MSP),12/19/2025,1:10 PM,12:46 PM,A5
+Arrival,Southwest Airlines,3446,LaGuardia (LGA),12/19/2025,1:10 PM,2:41 PM,A11
+Arrival,Southwest Airlines,265,Dallas / Love Field (DAL),12/19/2025,1:10 PM,1:19 PM,B5
+Departure,Southwest Airlines,3795,Tampa Intl (TPA),12/19/2025,1:10 PM,1:10 PM,B11
+Departure,Southwest Airlines,3795,Tampa Intl (TPA),12/20/2025,1:10 PM,1:24 PM,A16
+Arrival,Southwest Airlines,2153,San Diego Intl (SAN),12/20/2025,1:10 PM,12:55 PM,B17
+Departure,Delta Air Lines,5298,Detroit Metropolitan (DTW),12/18/2025,1:14 PM,1:14 PM,A7
+Departure,Delta Air Lines,5298,Detroit Metropolitan (DTW),12/19/2025,1:14 PM,1:24 PM,A7
+Arrival,Southwest Airlines,3717,Minneapolis St Paul Intl (MSP),12/19/2025,1:15 PM,1:25 PM,A16
+Departure,Southwest Airlines,3246,El Paso Intl (ELP),12/18/2025,1:20 PM,1:20 PM,B1
+Arrival,Southwest Airlines,2402,Denver Intl (DEN),12/19/2025,1:20 PM,1:21 PM,B1
+Arrival,Southwest Airlines,2047,Philadelphia Intl (PHL),12/19/2025,1:20 PM,1:03 PM,A19
+Departure,Southwest Airlines,4198,Orlando Intl (MCO),12/19/2025,1:20 PM,1:34 PM,B2
+Departure,Southwest Airlines,2120,Baltimore-Washington Intl (BWI),12/19/2025,1:20 PM,1:20 PM,A9
+Arrival,Frontier Airlines,2143,Hartsfield Atlanta Intl (ATL),12/19/2025,1:21 PM,12:55 PM,C2
+Arrival,Frontier Airlines,2143,Hartsfield Atlanta Intl (ATL),12/20/2025,1:21 PM,1:04 PM,C2
+Departure,Southwest Airlines,3722,LaGuardia (LGA),12/18/2025,1:25 PM,2:10 PM,B3
+Departure,Southwest Airlines,267,Albany Intl (ALB),12/18/2025,1:25 PM,1:25 PM,B2
+Departure,Southwest Airlines,674,Pittsburgh Intl (PIT),12/18/2025,1:25 PM,1:25 PM,B7
+Departure,Southwest Airlines,2349,Raleigh-Durham Intl (RDU),12/18/2025,1:25 PM,1:33 PM,A9
+Departure,Southwest Airlines,3611,Sarasota-Bradenton Intl (SRQ),12/18/2025,1:25 PM,1:25 PM,A16
+Departure,Southwest Airlines,3795,Tampa Intl (TPA),12/18/2025,1:25 PM,1:25 PM,A11
+Departure,Southwest Airlines,197,San Francisco Intl (SFO),12/19/2025,1:25 PM,1:25 PM,A18
+Arrival,Southwest Airlines,265,Dallas / Love Field (DAL),12/20/2025,1:25 PM,1:15 PM,A19
+Departure,Southwest Airlines,1964,Cleveland Hopkins Intl (CLE),12/18/2025,1:30 PM,1:30 PM,B20
+Departure,Southwest Airlines,2327,William P Hobby (HOU),12/18/2025,1:30 PM,1:30 PM,A17
+Departure,Southwest Airlines,3771,Southwest Florida Intl (RSW),12/18/2025,1:30 PM,1:30 PM,B19
+Departure,Southwest Airlines,4696,Long Beach (LGB),12/19/2025,1:30 PM,1:44 PM,B7
+Arrival,Southwest Airlines,1635,Hartsfield Atlanta Intl (ATL),12/20/2025,1:30 PM,1:22 PM,B15
+Arrival,Southwest Airlines,3681,Southwest Florida Intl (RSW),12/18/2025,1:35 PM,1:35 PM,B25
+Departure,Southwest Airlines,232,LaGuardia (LGA),12/20/2025,1:35 PM,1:48 PM,A17
+Arrival,Southwest Airlines,519,Orlando Intl (MCO),12/20/2025,1:35 PM,1:29 PM,B7
+Arrival,Southwest Airlines,4180,Raleigh-Durham Intl (RDU),12/18/2025,1:40 PM,1:24 PM,B15
+Arrival,Southwest Airlines,1226,Kansas City Intl (MCI),12/18/2025,1:40 PM,1:40 PM,B9
+Departure,Southwest Airlines,2713,Charleston Intl (CHS),12/18/2025,1:40 PM,1:40 PM,B16
+Arrival,Southwest Airlines,3206,Harry Reid Intl (LAS),12/20/2025,1:40 PM,1:54 PM,B2
+Arrival,Southwest Airlines,4013,Portland Intl (PDX),12/20/2025,1:40 PM,1:23 PM,A15
+Departure,Volaris,7703,Guanajuato Intl (BJX),12/18/2025,1:42 PM,1:42 PM,A3
+Departure,Volaris,7703,Guanajuato Intl (BJX),12/20/2025,1:42 PM,3:46 PM,A1
+Arrival,Southwest Airlines,3740,Philadelphia Intl (PHL),12/18/2025,1:45 PM,1:19 PM,B23
+Departure,Southwest Airlines,537,Orlando Intl (MCO),12/18/2025,1:45 PM,1:45 PM,B11
+Departure,Southwest Airlines,3182,Harry Reid Intl (LAS),12/19/2025,1:45 PM,2:00 PM,B15
+Departure,Southwest Airlines,2885,William P Hobby (HOU),12/20/2025,1:45 PM,1:45 PM,B15
+Departure,Delta Air Lines,3795,Minneapolis St Paul Intl (MSP),12/18/2025,1:50 PM,1:50 PM,A5
+Departure,Southwest Airlines,2041,Ft Lauderdale / Hollywood Intl (FLL),12/18/2025,1:50 PM,1:59 PM,B17
+Departure,Southwest Airlines,3207,Lambert / St Louis Intl (STL),12/18/2025,1:50 PM,1:50 PM,B14
+Departure,Delta Air Lines,3795,Minneapolis St Paul Intl (MSP),12/19/2025,1:50 PM,1:50 PM,A5
+Departure,Southwest Airlines,2993,Dallas / Love Field (DAL),12/19/2025,1:50 PM,2:01 PM,B5
+Departure,Southwest Airlines,3704,El Paso Intl (ELP),12/19/2025,1:50 PM,2:06 PM,A11
+Arrival,Southwest Airlines,1888,Memphis Intl (MEM),12/20/2025,1:50 PM,1:32 PM,B5
+Departure,Southwest Airlines,396,Savannah Intl (SAV),12/18/2025,1:55 PM,1:55 PM,B12
+Departure,Southwest Airlines,1505,Pittsburgh Intl (PIT),12/19/2025,1:55 PM,3:26 PM,A11
+Departure,Southwest Airlines,1394,Phoenix Sky Harbor Intl (PHX),12/20/2025,1:55 PM,1:55 PM,B17
+Arrival,Southwest Airlines,2257,Kansas City Intl (MCI),12/20/2025,1:55 PM,1:43 PM,A18
+Arrival,Frontier Airlines,1888,Dallas Fort Worth Intl (DFW),12/19/2025,1:59 PM,1:57 PM,C3
+Arrival,Volaris,2293,Dallas Fort Worth Intl (DFW),12/19/2025,1:59 PM,1:59 PM,
+Departure,Southwest Airlines,2030,Richmond Intl (RIC),12/19/2025,2:00 PM,2:02 PM,A16
+Arrival,Southwest Airlines,229,Cancun Intl (CUN),12/20/2025,2:00 PM,3:05 PM,A3
+Arrival,Southwest Airlines,636,Ontario Intl (ONT),12/20/2025,2:00 PM,1:57 PM,A16
+Arrival,Southwest Airlines,1692,Seattle Tacoma Intl (SEA),12/20/2025,2:00 PM,1:28 PM,A11
+Arrival,Southwest Airlines,878,Eppley Airfield (OMA),12/18/2025,2:05 PM,2:05 PM,B22
+Arrival,Southwest Airlines,878,Eppley Airfield (OMA),12/19/2025,2:05 PM,2:13 PM,B9
+Arrival,Southwest Airlines,3730,San Jose Intl (SJC),12/19/2025,2:05 PM,1:55 PM,B11
+Departure,Southwest Airlines,1394,Phoenix Sky Harbor Intl (PHX),12/19/2025,2:05 PM,2:05 PM,A19
+Departure,Southwest Airlines,2799,Ft Lauderdale / Hollywood Intl (FLL),12/19/2025,2:05 PM,2:09 PM,B1
+Arrival,Southwest Airlines,3730,San Jose Intl (SJC),12/20/2025,2:05 PM,2:01 PM,B19
+Arrival,Southwest Airlines,4291,Louisville Intl (SDF),12/18/2025,2:10 PM,2:10 PM,B21
+Arrival,Southwest Airlines,3374,Los Angeles Intl (LAX),12/19/2025,2:10 PM,1:48 PM,B19
+Departure,Southwest Airlines,3810,Ronald Reagan / Washington National (DCA),12/20/2025,2:10 PM,2:10 PM,B11
+Departure,Southwest Airlines,4535,Denver Intl (DEN),12/20/2025,2:10 PM,2:10 PM,A19
+Arrival,Southwest Airlines,1021,Orlando Intl (MCO),12/18/2025,2:15 PM,2:27 PM,B24
+Arrival,Southwest Airlines,15,William P Hobby (HOU),12/18/2025,2:15 PM,1:44 PM,B10
+Departure,Southwest Airlines,519,Portland Intl (PDX),12/20/2025,2:15 PM,2:15 PM,B7
+Arrival,Southwest Airlines,4438,Lambert / St Louis Intl (STL),12/20/2025,2:15 PM,1:57 PM,A16
+Arrival,Southwest Airlines,2402,Denver Intl (DEN),12/20/2025,2:15 PM,2:10 PM,B3
+Departure,Frontier Airlines,3281,George Bush Intercontinental (IAH),12/19/2025,2:16 PM,2:16 PM,C2
+Departure,Volaris,2610,George Bush Intercontinental (IAH),12/19/2025,2:16 PM,2:16 PM,
+Departure,Frontier Airlines,1458,Orlando Intl (MCO),12/20/2025,2:16 PM,2:16 PM,C2
+Departure,Volaris,2170,Orlando Intl (MCO),12/20/2025,2:16 PM,2:16 PM,
+Arrival,Southwest Airlines,3601,Albuquerque Intl Sunport (ABQ),12/18/2025,2:20 PM,2:20 PM,B26
+Departure,Southwest Airlines,2514,Baltimore-Washington Intl (BWI),12/18/2025,2:20 PM,2:20 PM,B15
+Arrival,Southwest Airlines,204,Albuquerque Intl Sunport (ABQ),12/19/2025,2:20 PM,2:06 PM,A15
+Arrival,Southwest Airlines,878,Eppley Airfield (OMA),12/20/2025,2:20 PM,2:00 PM,A9
+Arrival,Southwest Airlines,1484,Austin-Bergstrom Intl (AUS),12/20/2025,2:20 PM,2:28 PM,B19
+Departure,Southwest Airlines,3740,Minneapolis St Paul Intl (MSP),12/18/2025,2:25 PM,2:25 PM,B23
+Departure,Southwest Airlines,3680,Logan Intl (BOS),12/18/2025,2:25 PM,3:07 PM,B25
+Arrival,Southwest Airlines,3602,Orlando Intl (MCO),12/19/2025,2:25 PM,2:54 PM,B17
+Departure,Southwest Airlines,3955,Raleigh-Durham Intl (RDU),12/20/2025,2:25 PM,2:25 PM,A15
+Arrival,Southwest Airlines,1907,Raleigh-Durham Intl (RDU),12/20/2025,2:25 PM,2:07 PM,B15
+Arrival,Southwest Airlines,1228,Southwest Florida Intl (RSW),12/20/2025,2:25 PM,2:18 PM,B1
+Arrival,Southwest Airlines,2556,Louis Armstrong New Orleans Intl (MSY),12/19/2025,2:30 PM,2:39 PM,B3
+Departure,Southwest Airlines,1888,Tucson Intl (TUS),12/20/2025,2:30 PM,2:30 PM,B5
+Arrival,Southwest Airlines,2556,Louis Armstrong New Orleans Intl (MSY),12/20/2025,2:30 PM,2:25 PM,A17
+Departure,Volaris,7771,Francisco J Mujica Intl (MLM),12/18/2025,2:32 PM,2:32 PM,A1
+Departure,Volaris,7771,Francisco J Mujica Intl (MLM),12/19/2025,2:32 PM,2:32 PM,A2
+Departure,Volaris,7771,Francisco J Mujica Intl (MLM),12/20/2025,2:32 PM,2:34 PM,A2
+Arrival,Southwest Airlines,4545,Phoenix Sky Harbor Intl (PHX),12/19/2025,2:35 PM,2:31 PM,A18
+Departure,Southwest Airlines,3745,Myrtle Beach Intl (MYR),12/20/2025,2:35 PM,2:37 PM,B2
+Departure,Southwest Airlines,2257,Savannah Intl (SAV),12/20/2025,2:35 PM,2:35 PM,A18
+Arrival,Southwest Airlines,2082,Colorado Springs (COS),12/20/2025,2:35 PM,2:24 PM,A19
+Departure,Southwest Airlines,3530,Louisville Intl (SDF),12/18/2025,2:40 PM,2:40 PM,B9
+Arrival,Southwest Airlines,4870,Tampa Intl (TPA),12/20/2025,2:40 PM,2:53 PM,B11
+Arrival,Southwest Airlines,215,Ronald Reagan / Washington National (DCA),12/20/2025,2:40 PM,2:57 PM,B7
+Arrival,Southwest Airlines,2928,Pittsburgh Intl (PIT),12/18/2025,2:45 PM,2:45 PM,A15
+Departure,Southwest Airlines,368,John Glenn Columbus Intl (CMH),12/20/2025,2:45 PM,2:45 PM,A11
+Departure,Southwest Airlines,1753,Austin-Bergstrom Intl (AUS),12/20/2025,2:45 PM,2:46 PM,B1
+Departure,Southwest Airlines,3562,Ronald Reagan / Washington National (DCA),12/18/2025,2:50 PM,2:50 PM,B10
+Departure,Southwest Airlines,4561,LaGuardia (LGA),12/18/2025,2:50 PM,2:50 PM,B22
+Arrival,Southwest Airlines,2662,Tulsa Intl (TUL),12/19/2025,2:50 PM,5:51 PM,B15
+Arrival,Southwest Airlines,1907,Raleigh-Durham Intl (RDU),12/19/2025,2:50 PM,2:50 PM,A17
+Departure,Southwest Airlines,1586,Hartsfield Atlanta Intl (ATL),12/19/2025,2:50 PM,2:50 PM,B11
+Departure,Southwest Airlines,2885,William P Hobby (HOU),12/19/2025,2:50 PM,2:53 PM,B9
+Departure,Southwest Airlines,2799,Ft Lauderdale / Hollywood Intl (FLL),12/20/2025,2:50 PM,2:51 PM,B17
+Departure,Southwest Airlines,1415,John Glenn Columbus Intl (CMH),12/19/2025,2:55 PM,2:55 PM,B19
+Departure,Southwest Airlines,1902,Philadelphia Intl (PHL),12/20/2025,3:00 PM,3:00 PM,A16
+Departure,Southwest Airlines,3513,Kansas City Intl (MCI),12/20/2025,3:00 PM,3:00 PM,B3
+Arrival,Southwest Airlines,2257,Kansas City Intl (MCI),12/19/2025,3:05 PM,3:52 PM,B17
+Arrival,Southwest Airlines,4139,Baltimore-Washington Intl (BWI),12/20/2025,3:05 PM,2:55 PM,A15
+Arrival,Southwest Airlines,1050,John Glenn Columbus Intl (CMH),12/20/2025,3:05 PM,2:41 PM,B5
+Arrival,Volaris,7866,Durango Intl (DGO),12/20/2025,3:09 PM,3:06 PM,
+Arrival,Southwest Airlines,4870,Tampa Intl (TPA),12/19/2025,3:10 PM,3:17 PM,A16
+Departure,Frontier Airlines,1458,Orlando Intl (MCO),12/19/2025,3:10 PM,3:10 PM,C3
+Departure,Southwest Airlines,787,Minneapolis St Paul Intl (MSP),12/19/2025,3:10 PM,3:10 PM,A15
+Departure,Southwest Airlines,3810,Ronald Reagan / Washington National (DCA),12/19/2025,3:10 PM,3:43 PM,B17
+Departure,Volaris,2170,Orlando Intl (MCO),12/19/2025,3:10 PM,3:10 PM,
+Departure,Southwest Airlines,3680,Logan Intl (BOS),12/20/2025,3:10 PM,3:11 PM,B17
+Departure,Southwest Airlines,1228,Tulsa Intl (TUL),12/20/2025,3:10 PM,3:10 PM,B9
+Arrival,Southwest Airlines,1874,El Paso Intl (ELP),12/19/2025,3:15 PM,2:53 PM,B5
+Departure,Southwest Airlines,1897,Detroit Metropolitan (DTW),12/19/2025,3:15 PM,3:19 PM,B2
+Departure,Southwest Airlines,1081,Richmond Intl (RIC),12/20/2025,3:15 PM,3:15 PM,B15
+Departure,Southwest Airlines,3635,Nashville Intl (BNA),12/20/2025,3:15 PM,3:15 PM,A17
+Arrival,Southwest Airlines,3447,LaGuardia (LGA),12/20/2025,3:15 PM,3:11 PM,A18
+Arrival,Delta Air Lines,1739,Hartsfield Atlanta Intl (ATL),12/20/2025,3:18 PM,3:18 PM,A10
+Arrival,Southwest Airlines,4438,Lambert / St Louis Intl (STL),12/19/2025,3:20 PM,3:31 PM,B3
+Arrival,Porter Airlines,2393,City Centre (YTZ),12/19/2025,3:20 PM,3:20 PM,
+Arrival,Southwest Airlines,1191,Nashville Intl (BNA),12/19/2025,3:20 PM,3:20 PM,B1
+Departure,Southwest Airlines,197,San Francisco Intl (SFO),12/20/2025,3:20 PM,3:45 PM,A11
+Departure,Southwest Airlines,4678,Orlando Intl (MCO),12/20/2025,3:20 PM,3:30 PM,B11
+Arrival,Porter Airlines,2393,City Centre (YTZ),12/20/2025,3:20 PM,3:59 PM,
+Arrival,Frontier Airlines,1888,Dallas Fort Worth Intl (DFW),12/20/2025,3:28 PM,3:06 PM,C1
+Arrival,Volaris,2293,Dallas Fort Worth Intl (DFW),12/20/2025,3:28 PM,3:28 PM,
+Arrival,Southwest Airlines,2409,Cleveland Hopkins Intl (CLE),12/19/2025,3:30 PM,3:30 PM,B1
+Departure,Southwest Airlines,2662,Cleveland Hopkins Intl (CLE),12/19/2025,3:30 PM,6:26 PM,B15
+Departure,Southwest Airlines,1482,San Diego Intl (SAN),12/20/2025,3:30 PM,3:40 PM,B7
+Arrival,Volaris,7772,Francisco J Mujica Intl (MLM),12/20/2025,3:34 PM,3:32 PM,
+Arrival,Southwest Airlines,2310,Denver Intl (DEN),12/19/2025,3:35 PM,6:47 PM,A19
+Arrival,Southwest Airlines,4087,Phoenix Sky Harbor Intl (PHX),12/19/2025,3:35 PM,3:35 PM,A19
+Arrival,Southwest Airlines,3447,LaGuardia (LGA),12/19/2025,3:35 PM,4:54 PM,A15
+Departure,Southwest Airlines,2982,Denver Intl (DEN),12/19/2025,3:35 PM,5:41 PM,A17
+Departure,Southwest Airlines,3635,Nashville Intl (BNA),12/19/2025,3:35 PM,3:35 PM,A18
+Arrival,Southwest Airlines,1778,Harry Reid Intl (LAS),12/20/2025,3:35 PM,2:58 PM,B2
+Arrival,Southwest Airlines,1778,Harry Reid Intl (LAS),12/19/2025,3:40 PM,3:02 PM,B11
+Arrival,Southwest Airlines,3207,Baltimore-Washington Intl (BWI),12/19/2025,3:40 PM,3:40 PM,B9
+Departure,Southwest Airlines,220,Cancun Intl (CUN),12/20/2025,3:40 PM,3:40 PM,A9
+Arrival,Southwest Airlines,1164,Will Rogers World (OKC),12/20/2025,3:40 PM,3:40 PM,A17
+Arrival,Southwest Airlines,1136,Tucson Intl (TUS),12/20/2025,3:40 PM,3:26 PM,A16
+Departure,Southwest Airlines,1731,Louisville Intl (SDF),12/20/2025,3:45 PM,3:45 PM,A19
+Departure,Southwest Airlines,1050,Dallas / Love Field (DAL),12/20/2025,3:45 PM,3:45 PM,B5
+Arrival,Southwest Airlines,2348,William P Hobby (HOU),12/20/2025,3:45 PM,3:51 PM,B9
+Arrival,Southwest Airlines,1484,Austin-Bergstrom Intl (AUS),12/19/2025,3:55 PM,3:33 PM,A11
+Departure,Southwest Airlines,2256,Los Angeles Intl (LAX),12/19/2025,3:55 PM,3:57 PM,A16
+Departure,Southwest Airlines,1874,Raleigh-Durham Intl (RDU),12/19/2025,3:55 PM,3:55 PM,B5
+Departure,Southwest Airlines,1902,Philadelphia Intl (PHL),12/19/2025,4:00 PM,4:00 PM,A15
+Departure,Southwest Airlines,2429,LaGuardia (LGA),12/20/2025,4:00 PM,4:00 PM,A18
+Arrival,Southwest Airlines,2050,Minneapolis St Paul Intl (MSP),12/20/2025,4:00 PM,3:34 PM,B17
+Departure,Delta Air Lines,1739,Hartsfield Atlanta Intl (ATL),12/20/2025,4:03 PM,4:03 PM,A10
+Arrival,Southwest Airlines,2429,Ft Lauderdale / Hollywood Intl (FLL),12/19/2025,4:05 PM,4:09 PM,B20
+Departure,Southwest Airlines,3680,Logan Intl (BOS),12/19/2025,4:05 PM,5:03 PM,A19
+Departure,Southwest Airlines,3207,Lambert / St Louis Intl (STL),12/20/2025,4:05 PM,4:05 PM,A15
+Arrival,Southwest Airlines,491,John Glenn Columbus Intl (CMH),12/19/2025,4:10 PM,3:47 PM,B16
+Arrival,Southwest Airlines,1432,Logan Intl (BOS),12/19/2025,4:10 PM,5:11 PM,B2
+Departure,Southwest Airlines,1808,Dallas / Love Field (DAL),12/19/2025,4:10 PM,4:11 PM,B3
+Departure,Porter Airlines,2394,City Centre (YTZ),12/19/2025,4:15 PM,4:15 PM,
+Departure,Southwest Airlines,1228,Tulsa Intl (TUL),12/19/2025,4:15 PM,7:22 PM,A19
+Departure,Southwest Airlines,1434,Louis Armstrong New Orleans Intl (MSY),12/19/2025,4:15 PM,4:15 PM,B9
+Departure,Porter Airlines,2394,City Centre (YTZ),12/20/2025,4:15 PM,4:15 PM,
+Arrival,Volaris,7842,Jesus Teran Intl (AGU),12/19/2025,4:18 PM,4:18 PM,
+Arrival,Volaris,7842,Jesus Teran Intl (AGU),12/20/2025,4:18 PM,4:18 PM,
+Arrival,Southwest Airlines,697,Ronald Reagan / Washington National (DCA),12/19/2025,4:20 PM,4:20 PM,B21
+Departure,Southwest Airlines,3207,Lambert / St Louis Intl (STL),12/19/2025,4:20 PM,4:20 PM,B11
+Departure,Southwest Airlines,3716,Harry Reid Intl (LAS),12/19/2025,4:20 PM,4:32 PM,B9
+Departure,Southwest Airlines,3716,Harry Reid Intl (LAS),12/20/2025,4:20 PM,4:29 PM,B17
+Departure,Southwest Airlines,4306,Los Angeles Intl (LAX),12/20/2025,4:20 PM,4:20 PM,B2
+Departure,Southwest Airlines,2713,Charleston Intl (CHS),12/19/2025,4:25 PM,4:25 PM,B3
+Departure,Southwest Airlines,4375,Eppley Airfield (OMA),12/20/2025,4:25 PM,4:25 PM,A16
+Arrival,Southwest Airlines,1838,Birmingham Intl (BHM),12/20/2025,4:25 PM,4:01 PM,B7
+Arrival,Southwest Airlines,1949,El Paso Intl (ELP),12/20/2025,4:25 PM,4:33 PM,B25
+Departure,Southwest Airlines,3042,Phoenix Sky Harbor Intl (PHX),12/20/2025,4:30 PM,5:17 PM,B11
+Arrival,Southwest Airlines,1483,Kansas City Intl (MCI),12/20/2025,4:30 PM,4:30 PM,B10
+Arrival,Delta Air Lines,2060,Hartsfield Atlanta Intl (ATL),12/19/2025,4:31 PM,4:42 PM,A10
+Departure,Volaris,7867,Durango Intl (DGO),12/20/2025,4:31 PM,4:49 PM,
+Arrival,Southwest Airlines,3042,Pittsburgh Intl (PIT),12/19/2025,4:35 PM,4:35 PM,B12
+Arrival,Southwest Airlines,2047,Philadelphia Intl (PHL),12/20/2025,4:35 PM,4:40 PM,B12
+Departure,Southwest Airlines,3745,Myrtle Beach Intl (MYR),12/19/2025,4:40 PM,4:40 PM,A11
+Departure,Southwest Airlines,2050,Hartsfield Atlanta Intl (ATL),12/20/2025,4:40 PM,4:40 PM,A17
+Departure,Southwest Airlines,1482,San Diego Intl (SAN),12/19/2025,4:45 PM,4:49 PM,B14
+Arrival,Southwest Airlines,1191,Nashville Intl (BNA),12/20/2025,4:45 PM,4:15 PM,B23
+Arrival,Southwest Airlines,3485,Phoenix Sky Harbor Intl (PHX),12/20/2025,4:45 PM,5:02 PM,B17
+Arrival,Southwest Airlines,1776,Dallas / Love Field (DAL),12/20/2025,4:45 PM,4:45 PM,B11
+Departure,Volaris,7773,Francisco J Mujica Intl (MLM),12/20/2025,4:49 PM,4:49 PM,
+Arrival,Southwest Airlines,1776,Dallas / Love Field (DAL),12/19/2025,4:50 PM,4:28 PM,B26
+Departure,Southwest Airlines,491,Tampa Intl (TPA),12/19/2025,4:50 PM,5:49 PM,B16
+Arrival,Southwest Airlines,4401,Phoenix Sky Harbor Intl (PHX),12/19/2025,4:55 PM,5:31 PM,A16
+Arrival,Southwest Airlines,2299,Orlando Intl (MCO),12/20/2025,4:55 PM,4:55 PM,B26
+Arrival,Southwest Airlines,1717,Ronald Reagan / Washington National (DCA),12/20/2025,4:55 PM,5:47 PM,B20
+Arrival,Southwest Airlines,2348,William P Hobby (HOU),12/19/2025,5:00 PM,5:01 PM,A4A
+Arrival,Southwest Airlines,636,Ontario Intl (ONT),12/19/2025,5:05 PM,4:43 PM,B3
+Departure,Southwest Airlines,1838,Baltimore-Washington Intl (BWI),12/20/2025,5:05 PM,5:05 PM,B7
+Arrival,Southwest Airlines,1043,Sangster Intl (MBJ),12/20/2025,5:05 PM,5:20 PM,A3
+Arrival,United Airlines,3803,Bradley Intl (BDL),12/20/2025,5:05 PM,5:21 PM,
+Arrival,Southwest Airlines,1838,Southwest Florida Intl (RSW),12/19/2025,5:10 PM,5:40 PM,A9
+Departure,Southwest Airlines,4889,Orlando Intl (MCO),12/19/2025,5:10 PM,5:51 PM,B2
+Departure,Southwest Airlines,1806,Memphis Intl (MEM),12/20/2025,5:10 PM,5:10 PM,B10
+Departure,Southwest Airlines,2530,Ronald Reagan / Washington National (DCA),12/20/2025,5:10 PM,5:13 PM,B25
+Arrival,Southwest Airlines,2954,Denver Intl (DEN),12/19/2025,5:15 PM,8:00 PM,B7
+Arrival,Southwest Airlines,221,Cancun Intl (CUN),12/19/2025,5:15 PM,5:15 PM,
+Departure,Southwest Airlines,396,Savannah Intl (SAV),12/19/2025,5:15 PM,5:15 PM,B21
+Departure,Southwest Airlines,3042,Phoenix Sky Harbor Intl (PHX),12/19/2025,5:15 PM,5:15 PM,B12
+Arrival,Southwest Airlines,2954,Baltimore-Washington Intl (BWI),12/20/2025,5:15 PM,5:15 PM,B18
+Arrival,Delta Air Lines,4169,Minneapolis St Paul Intl (MSP),12/20/2025,5:19 PM,5:19 PM,A12
+Departure,Southwest Airlines,491,Tampa Intl (TPA),12/20/2025,5:20 PM,5:20 PM,B12
+Arrival,Southwest Airlines,429,Hartsfield Atlanta Intl (ATL),12/19/2025,5:25 PM,5:25 PM,A18
+Departure,Southwest Airlines,1776,John Glenn Columbus Intl (CMH),12/19/2025,5:25 PM,5:25 PM,B26
+Departure,Southwest Airlines,1434,Louis Armstrong New Orleans Intl (MSY),12/20/2025,5:25 PM,5:25 PM,B23
+Arrival,Southwest Airlines,3728,Palm Springs Intl (PSP),12/20/2025,5:25 PM,5:35 PM,A9
+Departure,Delta Air Lines,2060,Hartsfield Atlanta Intl (ATL),12/19/2025,5:26 PM,5:26 PM,A10
+Arrival,Delta Air Lines,5173,Detroit Metropolitan (DTW),12/20/2025,5:26 PM,5:26 PM,
+Departure,Southwest Airlines,2713,Charleston Intl (CHS),12/20/2025,5:30 PM,5:30 PM,B9
+Arrival,Southwest Airlines,1405,Lambert / St Louis Intl (STL),12/20/2025,5:30 PM,6:55 PM,B12
+Departure,Volaris,7843,Jesus Teran Intl (AGU),12/19/2025,5:33 PM,5:33 PM,A1
+Departure,Volaris,7843,Jesus Teran Intl (AGU),12/20/2025,5:33 PM,5:33 PM,
+Departure,Southwest Airlines,2465,Austin-Bergstrom Intl (AUS),12/19/2025,5:35 PM,6:06 PM,A16
+Departure,Southwest Airlines,1717,Denver Intl (DEN),12/20/2025,5:35 PM,6:32 PM,B20
+Departure,Southwest Airlines,1325,Nashville Intl (BNA),12/20/2025,5:35 PM,5:35 PM,B26
+Departure,Southwest Airlines,2954,Minneapolis St Paul Intl (MSP),12/20/2025,5:55 PM,5:55 PM,B18
+Departure,Southwest Airlines,735,Kansas City Intl (MCI),12/20/2025,5:55 PM,5:55 PM,B17
+Departure,Delta Air Lines,3799,Minneapolis St Paul Intl (MSP),12/20/2025,5:59 PM,6:56 PM,A12
+Departure,Southwest Airlines,3728,Orlando Intl (MCO),12/20/2025,6:05 PM,6:16 PM,A9
+Departure,United Airlines,3751,Chicago O Hare Intl (ORD),12/20/2025,6:05 PM,6:05 PM,
+Departure,Southwest Airlines,1462,Dallas / Love Field (DAL),12/20/2025,6:05 PM,7:30 PM,B12
+Departure,Delta Air Lines,5176,Detroit Metropolitan (DTW),12/20/2025,6:08 PM,6:08 PM,
+Arrival,Southwest Airlines,429,Hartsfield Atlanta Intl (ATL),12/20/2025,6:15 PM,6:15 PM,B9
+Arrival,Southwest Airlines,1419,Myrtle Beach Intl (MYR),12/20/2025,6:20 PM,6:20 PM,B10
+Arrival,Southwest Airlines,1999,Punta Cana Intl (PUJ),12/20/2025,6:25 PM,7:07 PM,A3
+Arrival,Southwest Airlines,3637,Los Cabos Intl (SJD),12/20/2025,6:30 PM,7:09 PM,A2

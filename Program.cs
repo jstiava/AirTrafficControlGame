@@ -1,2 +1,2 @@
-﻿using var game = new My2DGame.Game1();
+﻿using var game = new ATCGame.AirTrafficControlGame();
 game.Run();
