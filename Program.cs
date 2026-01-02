@@ -1,2 +1,4 @@
-﻿using var game = new ATCGame.AirTrafficControlGame();
+﻿using ATCGame;
+
+using var game = new AirTrafficControlGame();
 game.Run();

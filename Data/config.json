@@ -1,0 +1,449 @@
+{
+  "airlines": {
+    "general": {
+      "country": "any",
+      "fullname": "General",
+      "ICAO": "YYY",
+      "callsign":  "NOVEMBER"
+    },
+    "Southwest": {
+      "country": "United States",
+      "fullname": "Southwest Airlines",
+      "ICAO": "SWA",
+      "callsign": "SOUTHWEST"
+    },
+    "United": {
+      "country": "United States",
+      "fullname": "United Airlines",
+      "ICAO": "UAL",
+      "callsign": "UNITED"
+    },
+    "Delta": {
+      "country": "United States",
+      "fullname": "Delta Airlines",
+      "ICAO": "DAL",
+      "callsign": "DELTA"
+    },
+    "Spirit": {
+      "country": "United States",
+      "fullname": "Spirit Airlines",
+      "ICAO": "NKS",
+      "callsign": "SPIRIT"
+    },
+    "Alaska": {
+      "country": "United States",
+      "fullname": "Alaska Airlines",
+      "ICAO": "ASA",
+      "callsign": "ALASKA"
+    },
+    "Frontier": {
+      "country": "United States",
+      "fullname": "Frontier Airlines",
+      "ICAO": "FFT",
+      "callsign": "FRONTIER"
+    },
+    "Volaris": {
+      "country": "Mexico",
+      "ICAO": "VOI",
+      "callsign": "VOLARIS"
+    },
+    "American": {
+      "country": "United States",
+      "ICAO": "AAL",
+      "callsign": "AMERICAN"
+    },
+    "Porter": {
+      "country": "Canada",
+      "ICAO": "PTR",
+      "callsign": "PORTER"
+    },
+    "Allegiant": {
+      "country": "United States",
+      "ICAO": "AAY",
+      "callsign": "ALLEGIANT"
+    },
+    "Fedex": {
+      "country": "United States",
+      "ICAO": "FDX",
+      "callsign": "FEDEX"
+    },
+    "GoJet": {
+      "country": "United States",
+      "ICAO": "GJS",
+      "callsign": "LINDBERGH"
+    },
+    "JetBlue": {
+      "country": "United States",
+      "ICAO": "JBU",
+      "callsign": "JETBLUE"
+    },
+    "USAirways": {
+      "country": "United States",
+      "ICAO": "AWE",
+      "callsign": "CACTUS"
+    },
+    "Republic": {
+      "country": "United States",
+      "ICAO": "REP",
+      "callsign": "BRICKYARD"
+    },
+    "PSA": {
+      "country": "United States",
+      "ICAO": "JIA",
+      "callsign": "BLUE STREAK",
+      "group": "American",
+      "branding": "American Eagle"
+    },
+    "Envoy": {
+      "country": "United States",
+      "ICAO": "ENY",
+      "callsign": "ENVOY",
+      "group": "American",
+      "branding": "American Eagle"
+    },
+    "SkyWest": {
+      "country": "United States",
+      "ICAO": "SKW",
+      "callsign": "SKYWEST",
+      "contractorFor": [
+        "Alaska",
+        "American",
+        "Delta",
+        "United"
+      ]
+    },
+    "Lufthansa": {
+      "country": "Germany",
+      "fullname": "Lufthansa",
+      "ICAO": "DLH",
+      "callsign": "LUFTHANSA"
+    },
+    "Ryanair": {
+      "country": "Ireland",
+      "fullname": "Ryanair",
+      "ICAO": "RYR",
+      "callsign": "RYANAIR"
+    },
+    "British": {
+      "country": "United Kingdom",
+      "fullname": "British Airways",
+      "ICAO": "BAW",
+      "callsign": "SPEEDBIRD"
+    },
+    "Iberia": {
+      "country": "Spain",
+      "fullname": "Iberia Airlines",
+      "ICAO": "IBE",
+      "callsign": "IBERIA"
+    },
+    "Air France": {
+      "country": "France",
+      "fullname": "Air France",
+      "ICAO": "AFR",
+      "callsign": "AIRFRANS"
+    },
+    "KLM": {
+      "country": "Netherlands",
+      "fullname": "KLM",
+      "ICAO": "KLM",
+      "callsign": "KLM"
+    },
+    "China Southern": {
+      "country": "China",
+      "fullname": "China Southern Airlines",
+      "ICAO": "CSN",
+      "callsign": "CHINA SOUTHERN"
+    },
+    "Qatar": {
+      "country": "Qatar",
+      "fullname": "Qatar Airways",
+      "ICAO": "QTR",
+      "callsign": "QATARI"
+    },
+    "Emirates": {
+      "country": "United Arab Emirates",
+      "fullname": "Emirates Airways",
+      "ICAO": "UAE",
+      "callsign": "EMIRATES"
+    },
+    "Etihad": {
+      "country": "United Arab Emirates",
+      "fullname": "Etihad Airways",
+      "ICAO": "ETD",
+      "callsign": "ETIHAD"
+    },
+    "Turkish": {
+      "country": "Turkey",
+      "fullname": "Turkish Airlines",
+      "ICAO": "THY",
+      "callsign": "TURKISH"
+    }
+  },
+  "airports": {
+    "MDW": {
+      "name": "Chicago Midway International Airport",
+      "nickname": "Midway",
+      "city": "Chicago",
+      "state": "Illinois",
+      "country": "United States",
+      "ICAO": "KMDW",
+      "IATA": "MDW",
+      "radio_frequencies": {
+        "ATIS": 132.750,
+        "CLEARANCE": 124.625,
+        "GROUND": 118.075,
+        "TOWER": 135.200
+      },
+      "gates": {
+        "data": {
+          "C3": {
+            "pushbackToTaxiway": "Y",
+            "owner": "general",
+            "order_sw-flow": 46
+          },
+          "C2": {
+            "pushbackToTaxiway": "Y",
+            "owner": "general",
+            "order_sw-flow": 45
+          },
+          "C1": {
+            "pushbackToTaxiway": "Y",
+            "owner": "general",
+            "order_sw-flow": 44
+          },
+          "B1": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 0
+          },
+          "B2": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 1
+          },
+          "B3": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 2
+          },
+          "B5": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 3
+          },
+          "B7": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 4
+          },
+          "B9": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 5
+          },
+          "B11": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 6
+          },
+          "B15": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 7
+          },
+          "B17": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 8
+          },
+          "B19": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 9
+          },
+          "B21": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 10
+          },
+          "B23": {
+            "pushbackToTaxiway": "Y",
+            "owner": "Southwest",
+            "order_sw-flow": 11
+          },
+          "B25": {
+            "pushbackToTaxiway": "T",
+            "owner": "Southwest",
+            "order_sw-flow": 12
+          },
+          "B26": {
+            "pushbackToTaxiway": "T",
+            "owner": "Southwest",
+            "order_sw-flow": 13
+          },
+          "B28": {
+            "pushbackToTaxiway": "T",
+            "owner": "Southwest",
+            "order_sw-flow": 43
+          },
+          "B24": {
+            "pushbackToTaxiway": "T",
+            "owner": "Southwest",
+            "order_sw-flow": 14
+          },
+          "B22": {
+            "pushbackToTaxiway": "T1",
+            "owner": "Southwest",
+            "order_sw-flow": 15
+          },
+          "B20": {
+            "pushbackToTaxiway": "T1",
+            "owner": "Southwest",
+            "order_sw-flow": 16
+          },
+          "B18": {
+            "pushbackToTaxiway": "T1",
+            "owner": "Southwest",
+            "order_sw-flow": 17
+          },
+          "B16": {
+            "pushbackToTaxiway": "T1",
+            "owner": "Southwest",
+            "order_sw-flow": 18
+          },
+          "B14": {
+            "pushbackToTaxiway": "T1",
+            "owner": "Southwest",
+            "order_sw-flow": 31
+          },
+          "B12": {
+            "pushbackToTaxiway": "T1",
+            "owner": "Southwest",
+            "order_sw-flow": 30
+          },
+          "B10": {
+            "pushbackToTaxiway": "T1",
+            "owner": "Southwest",
+            "order_sw-flow": 29
+          },
+          "B8": {
+            "pushbackToTaxiway": "T1",
+            "owner": "Southwest",
+            "order_sw-flow": 28
+          },
+          "A1": {
+            "pushbackToTaxiway": "T2",
+            "owner": "general",
+            "order_sw-flow": 27
+          },
+          "A2": {
+            "pushbackToTaxiway": "T2",
+            "owner": "general",
+            "order_sw-flow": 26
+          },
+          "A3": {
+            "pushbackToTaxiway": "T2",
+            "owner": "general",
+            "order_sw-flow": 25
+          },
+          "A5": {
+            "pushbackToTaxiway": "T2",
+            "owner": "Delta",
+            "order_sw-flow": 24
+          },
+          "A7": {
+            "pushbackToTaxiway": "T2",
+            "owner": "Delta",
+            "order_sw-flow": 23
+          },
+          "A9": {
+            "pushbackToTaxiway": "T2",
+            "owner": "Southwest",
+            "order_sw-flow": 19
+          },
+          "A11": {
+            "pushbackToTaxiway": "T2",
+            "owner": "Southwest",
+            "order_sw-flow": 20
+          },
+          "A13": {
+            "pushbackToTaxiway": "T2",
+            "owner": "Southwest",
+            "order_sw-flow": 21
+          },
+          "A15": {
+            "pushbackToTaxiway": "T2",
+            "owner": "Southwest",
+            "order_sw-flow": 22
+          },
+          "A17": {
+            "pushbackToTaxiway": "T2",
+            "owner": "Southwest",
+            "order_sw-flow": 32
+          },
+          "A19": {
+            "pushbackToTaxiway": "T2",
+            "owner": "Southwest",
+            "order_sw-flow": 33
+          },
+          "A18": {
+            "pushbackToTaxiway": "T3",
+            "owner": "Southwest",
+            "order_sw-flow": 34
+          },
+          "A16": {
+            "pushbackToTaxiway": "T3",
+            "owner": "Southwest",
+            "order_sw-flow": 35
+          },
+          "A14": {
+            "pushbackToTaxiway": "T3",
+            "owner": "general",
+            "order_sw-flow": 36
+          },
+          "A12": {
+            "pushbackToTaxiway": "T3",
+            "owner": "general",
+            "order_sw-flow": 37
+          },
+          "A10": {
+            "pushbackToTaxiway": "T3",
+            "owner": "general",
+            "order_sw-flow": 38
+          },
+          "A8": {
+            "pushbackToTaxiway": "T3",
+            "owner": "general",
+            "order_sw-flow": 41
+          },
+          "A6": {
+            "pushbackToTaxiway": "T3",
+            "owner": "Southwest",
+            "order_sw-flow": 42
+          },
+          "A4A": {
+            "pushbackToTaxiway": "T3",
+            "owner": "Southwest",
+            "for_heavy": true,
+            "order_sw-flow": 39
+          },
+          "A4B": {
+            "pushbackToTaxiway": "T3",
+            "owner": "Southwest",
+            "for_heavy": true,
+            "order_sw-flow": 40
+          }
+        }
+      },
+      "pushback": {
+        "taxiwayDefaultDirection": {
+          "Y": "D",
+          "T": "D",
+          "T1": "S",
+          "T2": "S",
+          "T3": "S"
+        }
+      }
+    }
+  }
+}

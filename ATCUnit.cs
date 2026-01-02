@@ -1,31 +1,22 @@
 using ATCGame.Entities;
 using System.Collections.Generic;
 using System.Numerics;
-
 namespace ATCGame.Core;
 
-
-public class ATCUnit
+public class AirTrafficController
 {
     public string _name;
     public string _code;
+    public double _frequency;
     public Vector2 _position;
+    public LevelCycle _level;
 
-    public ATCUnit(string name, string code)
+
+    public AirTrafficController(string name, double frequency, LevelCycle level)
     {
-        _name = name; 
-        _code = code;
-    }
-
-}
-
-public class Airport : ATCUnit
-{
-    public Runway[] _runways = [];
-
-    public Airport(string name, string code) : base(name, code)
-    {
-        
+        _name = name;
+        _frequency = frequency;
+        _level = level;
     }
 }
 
@@ -54,6 +45,7 @@ public class RunwayManager
     public PriorityQueue<FlightProgress, int> _outbound;
     public PriorityQueue<FlightProgress, int> _inbound;
     public FlightProgress _occupant;
+    public Runway _runway;
 
     public bool IsOpen()
     {
